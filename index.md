@@ -35,7 +35,7 @@ The course consists of two parts. The **preview component** be completed by stud
 
 ### Helpful Links
 
-$\latex$ is a typesetting system that will become a big part of your life as a graduate student. We ask that you familiarize yourself with the system and begin submitting your problem sets using latex by the **week 3** of the preview component.
+Latex is a typesetting system that will become a big part of your life as a graduate student. We ask that you familiarize yourself with the system and begin submitting your problem sets using latex by the **week 3** of the preview component.
 
 ### Acknowledgements
 

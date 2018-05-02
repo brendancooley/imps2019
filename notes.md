@@ -1,0 +1,1 @@
+- to publish to github pages, just go to settings for this repository, scroll down to GitHub Pages, and change Source to "master." Content will publish to <username>.github.io/<reponame>

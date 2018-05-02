@@ -23,7 +23,7 @@ layout: default
 
 **Description:** This course is designed to prepare incoming Politics Ph.D. students for POL 502 (Mathematics for Political Scientists) and other coursework in Formal & Quantitative Methods. It reviews calculus and linear algebra and introduces fundamental ideas of real analysis.
 
-The course consists of two parts. The **preview component** be completed by students remotely and will run from June XX to August XX. Students will watch video lectures and complete weekly problem sets on topics in calculus and linear algebra. The **camp compenent** will take place in Princeton from August 27 to September 10. Class will meet twice daily and students will complete daily problem sets.
+The course consists of two parts. The **preview component** be completed by students remotely and will run from June 11 to August 16. Students will watch video lectures and complete weekly problem sets on topics in calculus and linear algebra. The **camp component** will take place in Princeton from August 27 to September 7. Class will meet twice daily and students will complete daily problem sets.
 
 **Course Structure:**
 
@@ -35,7 +35,7 @@ The course consists of two parts. The **preview component** be completed by stud
 
 ### Helpful Links
 
-\latex is a typesetting system that will become a big part of your life as a graduate student. We ask that you familiarize yourself with the system and begin submitting your problem sets using latex by the **week 3** 
+$\latex$ is a typesetting system that will become a big part of your life as a graduate student. We ask that you familiarize yourself with the system and begin submitting your problem sets using latex by the **week 3** of the preview component.
 
 ### Acknowledgements
 

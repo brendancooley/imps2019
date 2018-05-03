@@ -46,6 +46,12 @@ $$\LaTeX$$ is a typesetting system that will likely become a big part of your li
 
 **Preview Component**
 
+| Post    | Due     | Topic                                                                         | Video | Optional Reading |
+|---------|---------|-------------------------------------------------------------------------------|-------|------------------|
+| June 15 | June 21 | Calculus -- Functions and Limits                                              | 1-2   | 3-4              |
+| June 22 | June 28 | Calculus -- Continuity and Derivatives                                        | 3-4   | 5-9              |
+| June 29 | July 5  | Calculus -- Implicit Differentiation, Mean Value Theorem, and Critical Points | 5, 8  | 8, 11            |
+
 **Camp Component**
 
 ### Helpful Links

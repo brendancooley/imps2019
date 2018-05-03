@@ -29,7 +29,12 @@ The course consists of two parts. The **preview component** be completed by stud
 
 **Requirements:**
 
-**Materials:**
+**Textbooks:** None of these are required, but you may find them useful. Banner's *The Calculus Lifesaver* is the companion text for the Calculus video lectures. Strang's *Linear Algebra* is the companion text for the Linear Algebra video lectures. You may find the other textbooks helpful for the camp and other courses at Princeton.
+
+- Banner, Adrian. [*The Calculus Lifesaver*](https://www.amazon.com/Calculus-Lifesaver-Tools-Princeton-Guides/dp/0691130884).
+- Strang, Gilbert. [*Introduction to Linear Algebra*](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/ref=sr_1_1?ie=UTF8&qid=1525308498&sr=8-1&keywords=gilbert+strang+linear+algebra).
+- Simon, Carl P, and Lawrence E. Blume. [*Mathematics for Economists*](https://www.amazon.com/Mathematics-Economists-Carl-P-Simon/dp/0393957330/ref=sr_1_2?s=books&ie=UTF8&qid=1525308603&sr=1-2&keywords=mathematics+for+economists+simon+and+blume).
+- Reed, Michael. [*Fundamental Ideas of Analysis*](https://www.amazon.com/Fundamental-Ideas-Analysis-Michael-Reed/dp/0471159964/ref=sr_1_1?ie=UTF8&qid=1525308705&sr=8-1&keywords=fundamental+ideas+of+analysis).
 
 ### Schedule
 

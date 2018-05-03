@@ -5,3 +5,5 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
 markdown: kramdown
+kramdown:
+   math_engine: mathjax

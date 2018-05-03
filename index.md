@@ -5,6 +5,10 @@ layout: default
 testing some tex $\int_0^\infty x dF(x) = 0$, $\latex$,
 test this one too $$\sum_0^N x$$
 
+one more test 
+
+$$\int_0^\infty x dF(x) = 0$$
+
 ### Basic Information
 
 **Instructors:** 

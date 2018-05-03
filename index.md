@@ -2,6 +2,11 @@
 layout: default
 ---
 
+testing some tex $\int_0^\infty x dF(x) = 0$, $\latex$,
+$$
+\sum_0^N x
+$$
+
 ### Basic Information
 
 **Instructors:** 
@@ -29,7 +34,9 @@ The course consists of two parts. The **preview component** be completed by stud
 
 The camp will meet for 9 days (Labor Day exempted) with a morning session and an afternoon session each day. The morning session will meet from 10:00am to 11:50am, and the afternoon session will meet from 1:30pm to 3:20pm. We will post a daily problem set at the conclusion of each afternoon session in the schedule section below.
 
-**Requirements:** Students are required to complete the weekly problem sets during the preview period and the daily problem sets during the camp period. Problem sets during the preview component are due by **midnight each Thursday** (see table of deadlines below). We understand that summer often features travel and other activities that get in the way of doing math. Please get in touch if you don't think you'll be able to submit assignments by their due date, and we'll work on an alternative schedule for you. Problem sets during the camp component are due by **10:00am the morning after they are distributed**. Students are encouraged to work together on the problem sets, but are expected to write up their solutions individually. The camp will conclude with a final exam given in class on **DATE**.
+**Requirements:** Students are required to complete the weekly problem sets during the preview period and the daily problem sets during the camp period. Problem sets during the preview component are due by **midnight each Thursday** (see table of deadlines below). We understand that summer often features travel and other activities that get in the way of doing math. Please get in touch if you don't think you'll be able to submit assignments by their due date, and we'll work on an alternative schedule for you. 
+
+Problem sets during the camp component are due by **10:00am the morning after they are distributed**. Students are encouraged to work together on the problem sets, but are expected to write up their solutions individually. The camp will conclude with a final exam given in class on **DATE**.
 
 **Textbooks:** None of these are required, but you may find them useful. Banner's *The Calculus Lifesaver* is the companion text for the Calculus video lectures. Strang's *Linear Algebra* is the companion text for the Linear Algebra video lectures. You may find the other textbooks helpful for the camp and other courses at Princeton.
 

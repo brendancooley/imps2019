@@ -3,9 +3,7 @@ layout: default
 ---
 
 testing some tex $\int_0^\infty x dF(x) = 0$, $\latex$,
-$$
-\sum_0^N x
-$$
+test this one too $$\sum_0^N x$$
 
 ### Basic Information
 

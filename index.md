@@ -25,9 +25,11 @@ layout: default
 
 The course consists of two parts. The **preview component** be completed by students remotely and will run from June 11 to August 16. Students will watch video lectures and complete weekly problem sets on topics in calculus and linear algebra. The **camp component** will take place in Princeton from August 27 to September 7. Class will meet twice daily and students will complete daily problem sets.
 
-**Course Structure:**
+**Course Structure:** We will post a problem set every Friday during the preview component. The schedule below will contain links to the assignments and relevant video lectures. We encourage you to post questions to the Piazza discussion page about the material in the video lectures and the assignments. We will do our best to answer them quickly.
 
-**Requirements:**
+The camp will meet for 9 days (Labor Day exempted) with a morning session and an afternoon session each day. The morning session will meet from 10:00am to 11:50am, and the afternoon session will meet from 1:30pm to 3:20pm. We will post a daily problem set at the conclusion of each afternoon session in the schedule section below.
+
+**Requirements:** Students are required to complete the weekly problem sets during the preview period and the daily problem sets during the camp period. Problem sets during the preview component are due by **midnight each Thursday** (see table of deadlines below).^[test footnote] Problem sets during the camp component are due by **10:00am the next morning**.
 
 **Textbooks:** None of these are required, but you may find them useful. Banner's *The Calculus Lifesaver* is the companion text for the Calculus video lectures. Strang's *Linear Algebra* is the companion text for the Linear Algebra video lectures. You may find the other textbooks helpful for the camp and other courses at Princeton.
 

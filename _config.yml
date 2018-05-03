@@ -4,3 +4,4 @@ description: Syllabus and course materials for annual math camp for incoming Pol
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+markdown: kramdown

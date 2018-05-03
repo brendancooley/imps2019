@@ -44,6 +44,10 @@ $$\LaTeX$$ is a typesetting system that will likely become a big part of your li
 
 ### Schedule
 
+**Preview Component**
+
+**Camp Component**
+
 ### Helpful Links
 
 **Getting Started with $$\LaTeX$$:**

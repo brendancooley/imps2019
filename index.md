@@ -76,9 +76,26 @@ LaTeX is a typesetting system that will likely become a big part of your life as
 | September 7  | Review Session -- Calculus and Linear Algebra  | Review Session -- Real Analysis          | Link        |
 | September 10 | Final Exam                                     |                                          |             |
 
-### Helpful Links
+### Getting Started with LaTeX
 
-**Getting Started with LaTeX:**
+First thing's first, you'll need to download a LaTeX distribution and a text editor suitable for drafting LaTeX documents.
+
+**Distributions**
+
+- [MiKTeX (Windows)](https://miktex.org/)
+- [MacTeX (Mac)](http://www.tug.org/mactex/)
+
+**Text Editors**
+
+- [TeXmaker](http://www.xm1math.net/texmaker/)
+- [TeXstudio](https://www.texstudio.org/)
+
+Loading [Jennifer Pan](http://jenpan.com/)'s [problem set template](http://jenpan.com/jen_pan/PsetLatexTemplate.tex) into your text editor of choice will give you a sense of how .tex documents are constructed. Both TeXmaker and TeXstudio have buttons that will compile your .tex document into a clean .pdf.
+
+The tricky and painful part will be getting comfortable with LaTeX's syntax. Googling questions about LaTeX syntax will often turnup results on [StackExchange](https://tex.stackexchange.com/), many of which can be very helpful. We suggest spending some time in broader tutorials before diving in to specifics.
+
+- [ShareLaTeX Introduction and Quick Start]: https://www.sharelatex.com/learn/Learn_LaTeX_in_30_minutes
+- [Overleaf Interactive Introduction](https://www.overleaf.com/latex/learn/free-online-introduction-to-latex-part-1#.Wu0Q-tPwa8o)
 
 ### Acknowledgements
 

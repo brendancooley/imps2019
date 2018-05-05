@@ -94,7 +94,7 @@ Loading [Jennifer Pan](http://jenpan.com/)'s [problem set template](http://jenpa
 
 The tricky and painful part will be getting comfortable with LaTeX's syntax. Googling questions about LaTeX syntax will often turnup results on [StackExchange](https://tex.stackexchange.com/), many of which can be very helpful. We suggest spending some time in broader tutorials before diving in to specifics.
 
-- [ShareLaTeX Introduction and Quick Start]: https://www.sharelatex.com/learn/Learn_LaTeX_in_30_minutes
+- [ShareLaTeX Introduction and Quick Start](https://www.sharelatex.com/learn/Learn_LaTeX_in_30_minutes)
 - [Overleaf Interactive Introduction](https://www.overleaf.com/latex/learn/free-online-introduction-to-latex-part-1#.Wu0Q-tPwa8o)
 
 ### Acknowledgements

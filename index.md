@@ -63,6 +63,19 @@ LaTeX is a typesetting system that will likely become a big part of your life as
 
 **Camp Component**
 
+| Date         | Morning Session                                | Afternoon Session                        | Problem Set |
+|--------------|------------------------------------------------|------------------------------------------|-------------|
+| August 27    | The Basics of Set Theory                       | Proof Techniques                         | Link        |
+| August 28    | Real Analysis -- The Real Numbers              | Real Analysis -- Metric Spaces           | Link        |
+| August 29    | Real Analysis -- Sequences and Series          | Real Analysis -- Convergence             | Link        |
+| August 30    | Calculus -- Limits of Functions                | Calculus -- Continuity                   | Link        |
+| August 31    | Calculus -- Differentiation                    | Calculus -- Optimization                 | Link        |
+| September 4  | Calculus -- Integration                        | Calculus -- Taylor Expansions            | Link        |
+| September 5  | Linear Algebra -- Vector Spaces                | Linear Algebra -- Matrices               | Link        |
+| September 6  | Linear Algebra -- Determinants and the Inverse | Linear Algebra -- Matrix Differentiation | Link        |
+| September 7  | Review Session -- Calculus and Linear Algebra  | Review Session -- Real Analysis          | Link        |
+| September 10 | Final Exam                                     |                                          |             |
+
 ### Helpful Links
 
 **Getting Started with LaTeX:**

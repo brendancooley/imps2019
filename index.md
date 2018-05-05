@@ -29,7 +29,7 @@ The course consists of two parts. The **preview component** be completed by stud
 
 The camp will meet for 9 days (Labor Day exempted) with a morning session and an afternoon session each day. The morning session will meet from 10:00am to 11:50am, and the afternoon session will meet from 1:30pm to 3:20pm. We will post a daily problem set at the conclusion of each afternoon session in the schedule section below.
 
-**Requirements:** Students are required to complete the weekly problem sets during the preview period and the daily problem sets during the camp period. Problem sets during the preview component are due by **midnight each Thursday** (see table of deadlines below). We understand that summer often features travel and other activities that get in the way of doing math. Please get in touch if you don't think you'll be able to submit assignments by their due date, and we'll work on an alternative schedule for you. 
+**Requirements:** Students are required to complete the weekly problem sets during the preview period and the daily problem sets during the camp period. Problem sets during the preview component are due by **midnight each Thursday** (see table of deadlines below). Completed problem sets should be sent by email to **address**. We understand that summer often features travel and other activities that get in the way of doing math. Please get in touch if you don't think you'll be able to submit assignments by their due date, and we'll work on an alternative schedule for you. 
 
 Problem sets during the camp component are due by **10:00am the morning after they are distributed**. Students are encouraged to work together on the problem sets, but are expected to write up their solutions individually. The camp will conclude with a final exam given in class on **DATE**.
 
@@ -46,13 +46,20 @@ LaTeX is a typesetting system that will likely become a big part of your life as
 
 **Preview Component**
 
-| Post    | Due     | Topic                                                                         | Video | Optional Reading |
-|---------|---------|-------------------------------------------------------------------------------|-------|------------------|
-| June 15 | June 21 | Calculus -- Functions and Limits                                              | 1-2   | 3-4              |
-| June 22 | June 28 | Calculus -- Continuity and Derivatives                                        | 3-4   | 5-9              |
-| June 29 | July 5  | Calculus -- Implicit Differentiation, Mean Value Theorem, and Critical Points | 5, 8  | 8, 11            |
+- [Calculus Video Lectures](https://press.princeton.edu/video/banner)
+- [Linear Algebra Video Lectures](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/)
 
-testing
+| Post      | Due       | Topic                                                                         | Video          | Optional Reading |
+|-----------|-----------|-------------------------------------------------------------------------------|----------------|------------------|
+| June 15   | June 21   | Calculus -- Functions and Limits                                              | 1, 2           | 3-4              |
+| June 22   | June 28   | Calculus -- Continuity and Derivatives                                        | 3, 4           | 5-9              |
+| June 29   | July 5    | Calculus -- Implicit Differentiation, Mean Value Theorem, and Critical Points | 5, 6, 7, 8     | 8, 11            |
+| July 6    | July 12   | Calculus -- Optimization, L'Hopital's Rule                                    | 10             | 13-14            |
+| July 13   | July 19   | Calculus -- Integration                                                       | 11, 12, 13     | 16-19            |
+| July 20   | July 26   | Linear Algebra -- Linear Equations                                            | 1, 2, 3, 4, 5  | 1.1-1.3, 2.1-2.7 |
+| July 27   | August 2  | Linear Algebra -- Vector Spaces and Subspaces                                 | 6, 7, 8, 9, 10 | 3.1-3.6          |
+| August 3  | August 9  | Linear Algebra -- Orthogonality                                               | 14, 15, 16, 17 | 4.1-4.4          |
+| August 10 | August 16 | Linear Algebra -- Determinants                                                | 18, 19         | 5.1-5.2          |
 
 **Camp Component**
 

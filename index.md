@@ -33,7 +33,7 @@ The camp will meet for 9 days (Labor Day exempted) with a morning session and an
 
 Problem sets during the camp component are due by **10:00am the morning after they are distributed**. Students are encouraged to work together on the problem sets, but are expected to write up their solutions individually. The camp will conclude with a final exam given in class on **DATE**.
 
-$$\LaTeX$$ is a typesetting system that will likely become a big part of your life as a graduate student. This summer is a good time to get familiar with it. We ask that you begin submitting typed problem sets by **week 3 of the preview component.** Below, we provide links to tutorials to help you get started. Feel free to post questions about how to use the system on Piazza. Learning is a slog at the beginning, but it will make your life much easier down the road. 
+LaTeX is a typesetting system that will likely become a big part of your life as a graduate student. This summer is a good time to get familiar with it. We ask that you begin submitting typed problem sets by **week 3 of the preview component.** Below, we provide links to tutorials to help you get started. Feel free to post questions about how to use the system on Piazza. Learning is a slog at the beginning, but it will make your life much easier down the road. 
 
 **Textbooks:** None of these are required, but you may find them useful. Banner's *The Calculus Lifesaver* is the companion text for the Calculus video lectures. Strang's *Linear Algebra* is the companion text for the Linear Algebra video lectures. You may find the other textbooks helpful for the camp and other courses at Princeton.
 
@@ -58,7 +58,7 @@ testing
 
 ### Helpful Links
 
-**Getting Started with $$\LaTeX$$:**
+**Getting Started with LaTeX:**
 
 ### Acknowledgements
 

@@ -1,6 +1,6 @@
-# ppmc2018
-Princeton Politics Math Camp materials (2018)
+# Introduction to Mathematics for Political Scientists
 
+Department of Politics, Princeton University, Summer 2018
 
 # Acknowledgements
 

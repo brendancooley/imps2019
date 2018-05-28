@@ -33,7 +33,7 @@ The course consists of two parts. The *preview component* be completed by studen
 
 **Course Structure:** We will post a problem set every Friday during the preview component. The schedule below will contain links to the assignments and relevant video lectures. We encourage students to post questions about the material in the video lectures and the assignments to the [Piazza discussion page](https://piazza.com/princeton/summer2018/pol500/home). We will do our best to answer them quickly. We also encourage students to discuss problems and course material on the discussion page. Please sign up for the Piazza page if you have not already done so.
 
-The core course will meet for 9 days (Labor Day exempted) with a morning session and an afternoon session each day. The morning session will meet from *10:00am to 11:50am*, and the afternoon session will meet from *1:30pm to 3:20pm*. We will post a daily problem set at the conclusion of each afternoon session in the schedule section below.
+The core course will meet weekdays between August 27 and September 10 (Labor Day exempted) with a morning session and an afternoon session each day. The morning session will meet from *10:00am to 11:50am*, and the afternoon session will meet from *1:30pm to 3:20pm*. We will post a daily problem set at the conclusion of each afternoon session in the schedule section below.
 
 ### Requirements
 
@@ -59,7 +59,7 @@ LaTeX is a typesetting system that will likely become a big part of your life as
 
 - **MS** (Required) Moore, Will H. and David A. Siegel. [*A Mathematics Course for Political and Social Research*](https://www.amazon.com/Mathematics-Course-Political-Social-Research/dp/0691159173/ref=sr_1_1?ie=UTF8&qid=1527524838&sr=8-1&keywords=mathematics+course+for+political+and+social+research)
 - **S** (Optional) Strang, Gilbert. [*Introduction to Linear Algebra*](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/ref=sr_1_1?ie=UTF8&qid=1525308498&sr=8-1&keywords=gilbert+strang+linear+algebra).
-- (Optional) McCarty, Nolan and Adam Meirowitz. [*Political Game Theory: An Introduction*](https://www.amazon.com/Political-Game-Theory-Introduction-Analytical/dp/0521841070/ref=sr_1_1?s=books&ie=UTF8&qid=1527524858&sr=1-1&keywords=political+game+theory)
+- **MM** (Optional) McCarty, Nolan and Adam Meirowitz. [*Political Game Theory: An Introduction*](https://www.amazon.com/Political-Game-Theory-Introduction-Analytical/dp/0521841070/ref=sr_1_1?s=books&ie=UTF8&qid=1527524858&sr=1-1&keywords=political+game+theory)
 
 ### Content
 

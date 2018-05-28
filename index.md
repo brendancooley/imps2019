@@ -25,7 +25,7 @@ layout: default
 
 **Description:** This course is designed to prepare incoming Politics Ph.D. students for POL 502 (Mathematics for Political Scientists) and other coursework in Formal & Quantitative Methods. It covers the fundamentals of calculus, probability theory, linear algebra, and real analysis.
 
-The course consists of two parts. The *preview component* be completed by students remotely and will run from June 15 to August 16. Students will read course material, watch video lectures, and complete weekly problem sets on topics in calculus, probability linear algebra. The *core component* will take place in Princeton from August 27 to September 7. Class will meet twice daily and students will complete daily problem sets.
+The course consists of two parts. The *preview component* be completed by students remotely and will run from June 15 to August 16. Students will read course material, watch video lectures, and complete weekly problem sets on topics in calculus, probability theory, and linear algebra. The *core component* will take place in Princeton from August 27 to September 7. Class will meet twice daily and students will complete daily problem sets.
 
 **Prerequisites:** The course assumes no background knowledge beyond high school algebra. It is self-contained and designed to serve as an introduction or refresher for the material.
 

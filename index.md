@@ -75,7 +75,6 @@ Because Moore and Siegel's treatment of linear algebra is somewhat terse, we rec
 | Post   | Due    | Topic                                          | Video              | Reading                                        |
 |--------|--------|------------------------------------------------|--------------------|------------------------------------------------|
 | Jun 15 | Jun 21 | Building Blocks, Functions, Limits, Continuity | MS 1-2             | MS 1-4                                         |
-| Jun 15 | Jun 21 | Building Blocks, Functions, Limits, Continuity | MS 1-2             | MS 1-4                                         |
 | Jun 22 | Jun 28 | Differentiation                                | MS 3-4             | MS 5-6                                         |
 | Jun 29 | Jul 5  | Integration                                    | MS 5               | MS 7                                           |
 | Jul 6  | Jul 12 | Optimization                                   | MS 6               | MS 8                                           |

@@ -74,7 +74,11 @@ Because Moore and Siegel's treatment of linear algebra is somewhat terse, we rec
 
 | Post   | Due    | Topic                                          | Video              | Reading                                        |
 |--------|--------|------------------------------------------------|--------------------|------------------------------------------------|
+<<<<<<< Updated upstream
 | [Jun 15](https://rawgit.com/brendancooley/ppmc2018/master/psets/pset1.pdf) | Jun 21 | Building Blocks, Functions, Limits, Continuity | MS 1-2             | MS 1-4                                         |
+=======
+| Jun 15 | Jun 21 | Building Blocks, Functions, Limits, Continuity | MS 1-2             | MS 1-4                                         |
+>>>>>>> Stashed changes
 | Jun 22 | Jun 28 | Differentiation                                | MS 3-4             | MS 5-6                                         |
 | Jun 29 | Jul 5  | Integration                                    | MS 5               | MS 7                                           |
 | Jul 6  | Jul 12 | Optimization                                   | MS 6               | MS 8                                           |
@@ -95,8 +99,8 @@ The appendix of McCarty and Meirowitz's book contains a nice treatment of many o
 | Date   | Morning Session             | Afternoon Session                               | Problem Set | Submit |
 |--------|-----------------------------|-------------------------------------------------|-------------|--------|
 | Aug 27 | Pre-Exam (Closed Book)      | Exam Debrief, Summer Review                     | Problem Set | Submit |
-| Aug 28 | Proofs and Logic            | Sets and Functions                              | Problem Set | Submit |
-| Aug 29 | The Real Number System      | Points and Sets                                 | Problem Set | Submit |
+| Aug 28 | Proofs and Logic            | Sets and Functions (I)                              | Problem Set | Submit |
+| Aug 29 | Sets and Functions (II)     | The Real Number System                                  | Problem Set | Submit |
 | Aug 30 | Continuity                  | Fixed Points, Existence of Optima and Solutions | Problem Set | Submit |
 | Aug 31 | Partial Derivatives         | Gradients, Total Derivative, Jacobian, Hessian  | Problem Set | Submit |
 | Sep 4  | Concavity and Convexity     | Multidimensional Optimization                   | Problem Set | Submit |

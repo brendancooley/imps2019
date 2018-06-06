@@ -2,8 +2,6 @@
 layout: default
 ---
 
-*Syllabus is preliminary and subject to change.*
-
 ### Basic Information
 
 **Instructors:** 

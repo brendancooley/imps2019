@@ -1,4 +1,4 @@
-# Introduction to Mathematics for Political Scientists
+# Introduction to Mathematics for Political Science
 
 Department of Politics, Princeton University, Summer 2018
 

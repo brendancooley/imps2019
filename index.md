@@ -71,16 +71,16 @@ Because Moore and Siegel's treatment of linear algebra is somewhat terse, we rec
 - [Strang Video Lectures](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/)
 
 | Post   | Due    | Topic                                          | Video              | Reading                                        |
-|--------|--------|------------------------------------------------|--------------------|------------------------------------------------|
-| [Jun 15](https://rawgit.com/brendancooley/imps2018/master/psets/PS1.pdf) | [Jun 21](https://www.dropbox.com/request/2qDgPFUU9eA8OHMBvPEk) | Building Blocks, Functions, Limits, Continuity | MS 1-2             | MS 1-4                                         |
-| [Jun 22](https://rawgit.com/brendancooley/imps2018/master/psets/PS2.pdf) | [Jun 28](https://www.dropbox.com/request/0LREaBVccW7VKUZ5YwYN) | Differentiation                                | MS 3-4             | MS 5-6                                         |
-| Jun 29 | Jul 5  | Integration                                    | MS 5               | MS 7                                           |
-| Jul 6  | Jul 12 | Optimization                                   | MS 6               | MS 8                                           |
-| Jul 13 | Jul 19 | Probability (Introduction)                     | MS 7               | MS 9                                           |
-| Jul 20 | Jul 26 | Probability (Distribution Functions)           | MS 8-9             | MS 10-11                                       |
-| Jul 27 | Aug 2  | Scalars, Vectors, and Matrices                 | MS 10.1-10.6, 10.8 | MS 12.1-12.3.4, 12.4 (S 1)                     |
-| Aug 3  | Aug 9  | Solving Systems of Equations                   | MS 11.1-11.5       | MS 13.1-13.2.2 (S 2.1-2.4)                     |
-| Aug 10 | Aug 16 | Matrix Inversion and Determinants              | MS 10.7, 11.6-11.8 | MS 12.3.5-12.3.7, 13.2.3-13.2.4 (S 2.5-2.7, 5) |
+|--------|--------|------------------------------------------------|--------------------|------------------------------------------------|---|
+| [Jun 15](https://rawgit.com/brendancooley/imps2018/master/psets/PS1.pdf) | [Jun 21](https://www.dropbox.com/request/2qDgPFUU9eA8OHMBvPEk) | Building Blocks, Functions, Limits, Continuity | MS 1-2             | MS 1-4                                         | Solutions |
+| [Jun 22](https://rawgit.com/brendancooley/imps2018/master/psets/PS2.pdf) | [Jun 28](https://www.dropbox.com/request/0LREaBVccW7VKUZ5YwYN) | Differentiation                                | MS 3-4             | MS 5-6                                         | Solutions |
+| Jun 29 | Jul 5  | Integration                                    | MS 5               | MS 7                                           | Solutions |
+| Jul 6  | Jul 12 | Optimization                                   | MS 6               | MS 8                                           | Solutions |
+| Jul 13 | Jul 19 | Probability (Introduction)                     | MS 7               | MS 9                                           | Solutions |
+| Jul 20 | Jul 26 | Probability (Distribution Functions)           | MS 8-9             | MS 10-11                                       | Solutions |
+| Jul 27 | Aug 2  | Scalars, Vectors, and Matrices                 | MS 10.1-10.6, 10.8 | MS 12.1-12.3.4, 12.4 (S 1)                     | Solutions |
+| Aug 3  | Aug 9  | Solving Systems of Equations                   | MS 11.1-11.5       | MS 13.1-13.2.2 (S 2.1-2.4)                     | Solutions |
+| Aug 10 | Aug 16 | Matrix Inversion and Determinants              | MS 10.7, 11.6-11.8 | MS 12.3.5-12.3.7, 13.2.3-13.2.4 (S 2.5-2.7, 5) | Solutions |
 
 **Core Component**
 

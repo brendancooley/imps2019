@@ -74,7 +74,7 @@ Because Moore and Siegel's treatment of linear algebra is somewhat terse, we rec
 |--------|--------|------------------------------------------------|--------------------|------------------------------------------------|---|
 | [Jun 15](https://rawgit.com/brendancooley/imps2018/master/psets/PS1.pdf) | [Jun 21](https://www.dropbox.com/request/2qDgPFUU9eA8OHMBvPEk) | Building Blocks, Functions, Limits, Continuity | MS 1-2             | MS 1-4                                         | [Solutions](https://rawgit.com/brendancooley/imps2018/master/solutions/PS1.pdf) |
 | [Jun 22](https://rawgit.com/brendancooley/imps2018/master/psets/PS2.pdf) | [Jun 28](https://www.dropbox.com/request/0LREaBVccW7VKUZ5YwYN) | Differentiation                                | MS 3-4             | MS 5-6                                         | Solutions |
-| Jun 29 | Jul 5  | Integration                                    | MS 5               | MS 7                                           | Solutions |
+| [Jun 29](https://rawgit.com/brendancooley/imps2018/master/psets/PS3.pdf) | [Jul 5](https://www.dropbox.com/request/iQyfbDHdRHwmdngTjv7d)  | Integration                                    | MS 5               | MS 7                                           | Solutions |
 | Jul 6  | Jul 12 | Optimization                                   | MS 6               | MS 8                                           | Solutions |
 | Jul 13 | Jul 19 | Probability (Introduction)                     | MS 7               | MS 9                                           | Solutions |
 | Jul 20 | Jul 26 | Probability (Distribution Functions)           | MS 8-9             | MS 10-11                                       | Solutions |

@@ -128,7 +128,7 @@ The tricky and painful part will be getting comfortable with LaTeX's syntax. Goo
 
 We have benefited greatly from the materials developed by our predecessors:
 
-- Ammanda Kennard (2017)
+- Amanda Kennard (2017)
 - Korhan Kocak (2017)
 - Saurabh Pant (2015-2016)
 - Ted Enamorado (2015-2016)

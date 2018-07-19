@@ -14,7 +14,7 @@ layout: default
 - Dan Gibbs
     - 4th year Ph.D. student (American Politics, Formal & Quantitative Methods)
     - [dagibbs@princeton.edu](mailto:dagibbs@princeton.edu)
-    - Office: B01 Fisher Hall
+    - Office: 025 Corwin Hall
     - Office Hours: TBA
 
 **Faculty Advisor:** Kristopher Ramsay

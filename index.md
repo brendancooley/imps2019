@@ -93,14 +93,14 @@ The appendix of McCarty and Meirowitz's book contains a nice treatment of many o
 | Date   | Morning Session             | Afternoon Session                               | Problem Set | Submit |
 |--------|-----------------------------|-------------------------------------------------|-------------|--------|
 | Aug 27 | Pre-Exam (Closed Book)      | Exam Debrief, Summer Review                     | Problem Set | Submit |
-| Aug 28 | Proofs and Logic            | Sets and Functions (I)                              | Problem Set | Submit |
-| Aug 29 | Sets and Functions (II)     | The Real Number System                                  | Problem Set | Submit |
-| Aug 30 | Continuity                  | Fixed Points, Existence of Optima and Solutions | Problem Set | Submit |
-| Aug 31 | Partial Derivatives         | Gradients, Total Derivative, Jacobian, Hessian  | Problem Set | Submit |
-| Sep 4  | Concavity and Convexity     | Multidimensional Optimization                   | Problem Set | Submit |
-| Sep 5  | Vector Spaces and Subspaces | Orthogonality and Projection                    | Problem Set | Submit |
-| Sep 6  | Constrained Optimization    | Introduction to Comparative Statics             | Problem Set | Submit |
-| Sep 7  | Implicit Function Theorem   | Exam Review                                     | Problem Set | Submit |
+| Aug 28 | Proofs and Logic            | Ordered Sets                              | Problem Set | Submit |
+| Aug 29 | Metric Spaces (I)    | Metric Spaces (II)                                  | Problem Set | Submit |
+| Aug 30 | Linear Spaces (I)                  | Linear Spaces (II) | Problem Set | Submit |
+| Aug 31 | Normed Linear Spaces         | Functions: Continuous  | Problem Set | Submit |
+| Sep 4  | Functions: Monotone, Linear, Convex/Concave     | Functions: Smooth                   | Problem Set | Submit |
+| Sep 5  | Optimization: Unconstrained | Optimization: Equality Constrained                    | Problem Set | Submit |
+| Sep 6  | Optimization: Existence and Uniqueness    | Comparative Statics             | Problem Set | Submit |
+| Sep 7  | Exam Review (I)   | Exam Review (II)                                     | Problem Set | Submit |
 | Sep 10 | Final Exam (Closed Book)    |                                                 |             |        |
 
 ### Getting Started with LaTeX

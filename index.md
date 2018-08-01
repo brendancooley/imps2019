@@ -95,9 +95,9 @@ The appendix of McCarty and Meirowitz's book contains a nice treatment of many o
 | Aug 27 | Pre-Exam (Closed Book)      | Exam Debrief, Summer Review                     | Problem Set | Submit |
 | Aug 28 | Proofs and Logic            | Ordered Sets                              | Problem Set | Submit |
 | Aug 29 | Metric Spaces (I)    | Metric Spaces (II)                                  | Problem Set | Submit |
-| Aug 30 | Linear Spaces (I)                  | Linear Spaces (II) | Problem Set | Submit |
-| Aug 31 | Normed Linear Spaces         | Functions: Continuous  | Problem Set | Submit |
-| Sep 4  | Functions: Monotone, Linear, Convex/Concave     | Functions: Smooth                   | Problem Set | Submit |
+| Aug 30 | Linear Spaces                  | Normed Linear Spaces | Problem Set | Submit |
+| Aug 31 | Functions: Continuous         | Functions: Monotone, Linear, Convex/Concave  | Problem Set | Submit |
+| Sep 4  | Inner Product Spaces    | Functions: Smooth                   | Problem Set | Submit |
 | Sep 5  | Optimization: Unconstrained | Optimization: Equality Constrained                    | Problem Set | Submit |
 | Sep 6  | Optimization: Existence and Uniqueness    | Comparative Statics             | Problem Set | Submit |
 | Sep 7  | Exam Review (I)   | Exam Review (II)                                     | Problem Set | Submit |

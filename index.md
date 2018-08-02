@@ -97,7 +97,7 @@ The appendix of McCarty and Meirowitz's book contains a nice treatment of many o
 | Aug 29 | Metric Spaces (I)    | Metric Spaces (II)                                  | Problem Set | Submit |
 | Aug 30 | Linear Spaces                  | Normed Linear Spaces | Problem Set | Submit |
 | Aug 31 | Functions: Continuous         | Functions: Monotone, Linear, Convex/Concave  | Problem Set | Submit |
-| Sep 4  | Inner Product Spaces    | Functions: Smooth                   | Problem Set | Submit |
+| Sep 4  | Inner Product Spaces, Orthogonality, Projection    | Functions: Smooth                   | Problem Set | Submit |
 | Sep 5  | Optimization: Unconstrained | Optimization: Equality Constrained                    | Problem Set | Submit |
 | Sep 6  | Optimization: Existence and Uniqueness    | Comparative Statics             | Problem Set | Submit |
 | Sep 7  | Exam Review (I)   | Exam Review (II)                                     | Problem Set | Submit |

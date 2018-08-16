@@ -7,8 +7,9 @@ layout: default
 **Summer Self-Study:** June 15 - August 16
 
 **In-Person Component:** August 27 - September 10
-    - Morning Session: 10:00am - 11:50am
-    - Afternoon Session: 1:30pm - 3:20pm
+
+- Morning Session: 10:00am - 11:50am
+- Afternoon Session: 1:30pm - 3:20pm
 
 **Classroom:** Fisher 200
 

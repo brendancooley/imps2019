@@ -89,7 +89,7 @@ Because Moore and Siegel's treatment of linear algebra is somewhat terse, we rec
 | [Jul 20](https://rawgit.com/brendancooley/imps2018/master/psets/PS6.pdf) | [Jul 26](https://www.dropbox.com/request/sszpDdaDFEuLuO4Eg7aa) | Probability (Distribution Functions)           | MS 8-9             | MS 10-11                                       | [Solutions](https://rawgit.com/brendancooley/imps2018/master/solutions/PS6.pdf) |
 | [Jul 27](https://rawgit.com/brendancooley/imps2018/master/psets/PS7.pdf) | [Aug 2](https://www.dropbox.com/request/Eh9h4h3i64AcMZn8Ikrt)  | Scalars, Vectors, and Matrices                 | MS 10.1-10.6, 10.8 | MS 12.1-12.3.4, 12.4 (S 1)                     | [Solutions](https://rawgit.com/brendancooley/imps2018/master/solutions/PS7.pdf) |
 | [Aug 3](https://rawgit.com/brendancooley/imps2018/master/psets/PS8.pdf)  | [Aug 9](https://www.dropbox.com/request/IvgZQcaseW3PdrZWf2kA)  | Solving Systems of Equations                   | MS 11.1-11.5       | MS 13.1-13.2.2 (S 2.1-2.4)                     | [Solutions](https://rawgit.com/brendancooley/imps2018/master/solutions/PS8.pdf) |
-| [Aug 10](https://rawgit.com/brendancooley/imps2018/master/psets/PS9.pdf) | [Aug 16](https://www.dropbox.com/request/YxezXOxr4QYD1jUyXVnN) | Matrix Inversion and Determinants              | MS 10.7, 11.6-11.8 | MS 12.3.5-12.3.7, 13.2.3-13.2.4 (S 2.5-2.7, 5) | Solutions |
+| [Aug 10](https://rawgit.com/brendancooley/imps2018/master/psets/PS9.pdf) | [Aug 16](https://www.dropbox.com/request/YxezXOxr4QYD1jUyXVnN) | Matrix Inversion and Determinants              | MS 10.7, 11.6-11.8 | MS 12.3.5-12.3.7, 13.2.3-13.2.4 (S 2.5-2.7, 5) | [Solutions](https://rawgit.com/brendancooley/imps2018/master/solutions/PS9.pdf) |
 
 **Core Component**
 
@@ -99,9 +99,13 @@ The course will provide students with basic skills necessary to express theoreti
 
 The appendix of McCarty and Meirowitz's book contains a nice treatment of many of the topics we'll cover, and is a useful companion text to this part of the course.
 
+- [Practice Midterm](https://rawgit.com/brendancooley/imps2018/master/exams/midtermPractice.pdf)
+- [Practice Midterm Solutions](https://rawgit.com/brendancooley/imps2018/master/exams/midtermPracticeSolutions.pdf)
+
+
 | Date   | Morning Session             | Afternoon Session                               | Problem Set | Submit |
 |--------|-----------------------------|-------------------------------------------------|-------------|--------|
-| Aug 27 | Pre-Exam (Closed Book)      | Exam Debrief, Summer Review                     |  |  |
+| Aug 27 | Midterm Exam (Closed Book)      | Exam Debrief, Summer Review                     |  |  |
 | Aug 28 | Proofs and Logic            | Ordered Sets                              | Problem Set | Submit |
 | Aug 29 | Metric Spaces (I)    | Metric Spaces (II)                                  | Problem Set | Submit |
 | Aug 30 | Linear Spaces                  | Normed Linear Spaces | Problem Set | Submit |

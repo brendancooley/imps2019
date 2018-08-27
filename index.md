@@ -13,7 +13,7 @@ layout: default
 
 **Classroom:** 200 Fisher Hall
 
-**Office Hours:** 4:00pm-6:00pm Fisher Basement
+**Office Hours:** 4:00pm-6:00pm Fisher B16
 
 **Instructors:** 
 

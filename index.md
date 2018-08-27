@@ -11,7 +11,7 @@ layout: default
 - Morning Session: 10:00am - 11:50am
 - Afternoon Session: 1:30pm - 3:20pm
 
-**Classroom:** 200 Fisher Hall
+**Classroom:** Fisher 200
 
 **Office Hours:** 4:00pm-6:00pm Fisher B16
 
@@ -20,11 +20,11 @@ layout: default
 - Brendan Cooley
     - 4th year Ph.D. student (International Relations, Formal & Quantitative Methods)
     - [bcooley@princeton.edu](mailto:bcooley@princeton.edu) 
-    - Office: 300 Fisher Hall
+    - Office: Fisher 300 
 - Dan Gibbs
     - 4th year Ph.D. student (American Politics, Formal & Quantitative Methods)
     - [dagibbs@princeton.edu](mailto:dagibbs@princeton.edu)
-    - Office: 025 Corwin Hall
+    - Office: Corwin 025
 
 **Faculty Advisor:** Kristopher Ramsay
 

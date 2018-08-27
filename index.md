@@ -106,7 +106,7 @@ The appendix of McCarty and Meirowitz's book contains a nice treatment of many o
 | Date   | Morning Session             | Afternoon Session                               | Problem Set | Submit |
 |--------|-----------------------------|-------------------------------------------------|-------------|--------|
 | Aug 27 | Midterm Exam (Closed Book) <br> [Solutions](https://rawgit.com/brendancooley/imps2018/master/exams/midtermSolutions.pdf)      | Exam Debrief, Summer Review                     |  |  |
-| Aug 28 | [Proofs and Logic](https://rawgit.com/brendancooley/imps2018/master/notes/1_proofs&logic.pdf)            | [Ordered Sets](https://rawgit.com/brendancooley/imps2018/master/notes/2_orderedSets.pdf)                              | Problem Set | Submit |
+| Aug 28 | [Proofs and Logic](https://rawgit.com/brendancooley/imps2018/master/notes/1_logic&proofs.pdf)            | [Ordered Sets](https://rawgit.com/brendancooley/imps2018/master/notes/2_orderedSets.pdf)                              | Problem Set | Submit |
 | Aug 29 | Metric Spaces (I)    | Metric Spaces (II)                                  | Problem Set | Submit |
 | Aug 30 | Linear Spaces                  | Normed Linear Spaces | Problem Set | Submit |
 | Aug 31 | Functions: Continuous         | Functions: Monotone, Linear, Convex/Concave  | Problem Set | Submit |

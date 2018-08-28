@@ -106,7 +106,7 @@ The appendix of McCarty and Meirowitz's book contains a nice treatment of many o
 | Date   | Morning Session             | Afternoon Session                               | Problem Set |
 |--------|-----------------------------|-------------------------------------------------|-------------|
 | Aug 27 | Midterm Exam (Closed Book) <br> [Solutions](https://rawgit.com/brendancooley/imps2018/master/exams/midtermSolutions.pdf)      | Exam Debrief, Summer Review                     |  | 
-| Aug 28 | [Proofs and Logic](https://rawgit.com/brendancooley/imps2018/master/notes/1_logic&proofs.pdf)            | [Ordered Sets](https://rawgit.com/brendancooley/imps2018/master/notes/2_orderedSets.pdf)                              | Problem Set |
+| Aug 28 | (1) [Proofs and Logic](https://rawgit.com/brendancooley/imps2018/master/notes/1_logic&proofs.pdf)            | (2) [Ordered Sets](https://rawgit.com/brendancooley/imps2018/master/notes/2_orderedSets.pdf)                              | Problem Set: <br> (1): 1-2 <br> (2): 1-3 |
 | Aug 29 | Metric Spaces (I)    | Metric Spaces (II)                                  | Problem Set |
 | Aug 30 | Linear Spaces                  | Normed Linear Spaces | Problem Set |
 | Aug 31 | Functions: Continuous         | Functions: Monotone, Linear, Convex/Concave  | Problem Set | 
@@ -114,7 +114,7 @@ The appendix of McCarty and Meirowitz's book contains a nice treatment of many o
 | Sep 5  | Optimization: Unconstrained | Optimization: Equality Constrained                    | Problem Set | 
 | Sep 6  | Optimization: Existence and Uniqueness    | Comparative Statics             | Problem Set | 
 | Sep 7  | Exam Review (I)   | Exam Review (II)                                     |  | 
-| Sep 10 | Final Exam (Closed Book)    |                                                 |             |       
+| Sep 11 | Final Exam (Closed Book) <br> 10:00am-1:00pm <br> Fisher 200   |                                                 |             |       
 
 ### Getting Started with LaTeX
 

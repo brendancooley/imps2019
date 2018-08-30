@@ -107,7 +107,7 @@ The appendix of McCarty and Meirowitz's book contains a nice treatment of many o
 |--------|-----------------------------|-------------------------------------------------|-------------|
 | Aug 27 | Midterm Exam (Closed Book) <br> [Solutions](https://rawgit.com/brendancooley/imps2018/master/exams/midtermSolutions.pdf)      | Exam Debrief, Summer Review                     |  | 
 | Aug 28 | (1) [Proofs and Logic](https://rawgit.com/brendancooley/imps2018/master/notes/1_logic&proofs_solutions.pdf)            | (2) [Ordered Sets](https://rawgit.com/brendancooley/imps2018/master/notes/2_orderedSets_solutions.pdf)                              | Problem Set: <br> (1): 1-2 <br> (2): 1-3 |
-| Aug 29 | (3) [Metric Spaces](https://rawgit.com/brendancooley/imps2018/master/notes/3_metricSpaces.pdf)    | Metric Spaces                                  | Problem Set: <br> (3): 1-6 |
+| Aug 29 | (3) [Metric Spaces](https://rawgit.com/brendancooley/imps2018/master/notes/3_metricSpaces_solutions.pdf)    | Metric Spaces                                  | Problem Set: <br> (3): 1-6 |
 | Aug 30 | (4) [Linear Spaces](https://rawgit.com/brendancooley/imps2018/master/notes/4_linearSpaces.pdf)                 | (5) [Normed Linear Spaces](https://rawgit.com/brendancooley/imps2018/master/notes/5_normedLinearSpaces.pdf) | Problem Set |
 | Aug 31 | Functions: Continuous         | Functions: Monotone, Linear, Convex/Concave  | Problem Set | 
 | Sep 4  | Inner Product Spaces, Orthogonality, Projection    | Functions: Smooth                   | Problem Set | 

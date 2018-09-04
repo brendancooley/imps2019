@@ -110,7 +110,7 @@ The appendix of McCarty and Meirowitz's book contains a nice treatment of many o
 | Aug 29 | (3) [Metric Spaces](https://rawgit.com/brendancooley/imps2018/master/notes/3_metricSpaces_solutions.pdf)    | Metric Spaces                                  | Problem Set: <br> (3): 1-6 |
 | Aug 30 | (4) [Linear Spaces](https://rawgit.com/brendancooley/imps2018/master/notes/4_linearSpaces_solutions.pdf)                 | (5) [Normed Linear Spaces](https://rawgit.com/brendancooley/imps2018/master/notes/5_normedLinearSpaces_solutions.pdf) | Problem Set: <br> (4): 1-4 <br> (5): 1-3 |
 | Aug 31 | (6) [Functions: Continuous](https://rawgit.com/brendancooley/imps2018/master/notes/6_functionsContinuous.pdf)        | (7) [Functions: Monotone, Linear, Convex/Concave](https://rawgit.com/brendancooley/imps2018/master/notes/7_functionsOther.pdf)  | Problem Set: <br> (6): 1-4 <br> (7): 1-3 | 
-| Sep 4  | Inner Product Spaces, Orthogonality, Projection    | Functions: Smooth                   | Problem Set | 
+| Sep 4  | [Inner Product Spaces, Orthogonality, Projection](https://rawgit.com/brendancooley/imps2018/master/notes/8_innerProductSpaces.pdf)    | [Functions: Smooth](https://rawgit.com/brendancooley/imps2018/master/notes/9_functionsSmooth.pdf)                   | Problem Set | 
 | Sep 5  | Optimization: Unconstrained | Optimization: Equality Constrained                    | Problem Set | 
 | Sep 6  | Optimization: Existence and Uniqueness    | Comparative Statics             | Problem Set | 
 | Sep 7  | Exam Review (I)   | Exam Review (II)                                     |  | 

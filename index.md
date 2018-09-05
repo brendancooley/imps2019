@@ -111,7 +111,7 @@ The appendix of McCarty and Meirowitz's book contains a nice treatment of many o
 | Aug 30 | (4) [Linear Spaces](https://rawgit.com/brendancooley/imps2018/master/notes/4_linearSpaces_solutions.pdf)                 | (5) [Normed Linear Spaces](https://rawgit.com/brendancooley/imps2018/master/notes/5_normedLinearSpaces_solutions.pdf) | Problem Set: <br> (4): 1-4 <br> (5): 1-3 |
 | Aug 31 | (6) [Functions: Continuous](https://rawgit.com/brendancooley/imps2018/master/notes/6_functionsContinuous.pdf)        | (7) [Functions: Monotone, Linear, Convex/Concave](https://rawgit.com/brendancooley/imps2018/master/notes/7_functionsOther.pdf)  | Problem Set: <br> (6): 1-4 <br> (7): 1-3 | 
 | Sep 4  | (8) [Inner Product Spaces, Orthogonality, Projection](https://rawgit.com/brendancooley/imps2018/master/notes/8_innerProductSpaces.pdf)    | (9) [Functions: Smooth](https://rawgit.com/brendancooley/imps2018/master/notes/9_functionsSmooth.pdf)                   | Problem Set: <br> (8): 1-3 <br> (9): 1-4 | 
-| Sep 5  | Optimization: Unconstrained | Optimization: Equality Constrained                    | Problem Set | 
+| Sep 5  | (10) [Optimization: Unconstrained](https://rawgit.com/brendancooley/imps2018/master/notes/10_optimization.pdf) | Optimization: Equality Constrained                    | Problem Set: <br> (10): 1-6 | 
 | Sep 6  | Optimization: Existence and Uniqueness    | Comparative Statics             | Problem Set | 
 | Sep 7  | Exam Review (I)   | Exam Review (II)                                     |  | 
 | Sep 11 | Final Exam (Closed Book) <br> 10:00am-1:00pm <br> Fisher 200   |                                                 |             |       

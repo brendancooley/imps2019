@@ -116,6 +116,9 @@ The appendix of McCarty and Meirowitz's book contains a nice treatment of many o
 | Sep 7  | Exam Review (I)   | Exam Review (II)                                     |  | 
 | Sep 11 | Final Exam (Closed Book) <br> 10:00am-1:00pm <br> Fisher 200   |                                                 |             |       
 
+- [Practice Final](https://rawgit.com/brendancooley/imps2018/master/exams/finalPractice.pdf)
+- [Practice Final Solutions](https://rawgit.com/brendancooley/imps2018/master/exams/finalPracticeSolutions.pdf)
+
 ### Getting Started with LaTeX
 
 As mentioned above, we ask that students begin submitting typed problem sets in week 3 of the summer component. That requires learning LaTeX, a typesetting system that facilitates drafting mathematical documents. First thing's first, you'll need to download a LaTeX distribution and a text editor suitable for drafting LaTeX documents.

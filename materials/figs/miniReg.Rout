@@ -1,0 +1,127 @@
+
+R version 3.4.2 (2017-09-28) -- "Short Summer"
+Copyright (C) 2017 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library(ggplot2)
+> library(dplyr)
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+> 
+> x <- c(0, 4, 6, 8, 10)
+> y <- c(0, 6, 2, 10, 10)
+> 
+> D <- data.frame(x=x/2, y=y)
+> 
+> lm(y ~ x-1, data=D)
+
+Call:
+lm(formula = y ~ x - 1, data = D)
+
+Coefficients:
+x  
+2  
+
+> 
+> ggplot(data=D,aes(x=x,y=y)) + 
++   geom_point(size=3) +
++   geom_smooth(method=lm, se=FALSE, col='red') +
++   coord_equal() +
++   theme_classic()
+> 
+> x1 <- c(4, 9, 3)
+> x2 <- c(1, 8, 3)
+> x3 <- c(2, 4, 7)
+> 
+> y <- c(6, 5, 1)
+> 
+> X <- matrix(data=c(x1,x2,x3), nrow=3, ncol=3)
+> solve(t(X) %*% X) %*%t (X) %*% y
+            [,1]
+[1,]  1.88549618
+[2,] -1.48091603
+[3,] -0.03053435
+> 
+> x = 23/40
+> y = 21/40
+> z = 19/40
+> 
+> 3*x + y + 4*z
+[1] 4.15
+> 9*x - 3*y - 2*z
+[1] 2.65
+> 
+> 
+> x1 <- c(3, 9, 1)
+> x2 <- c(1, -3, 1)
+> x3 <- c(4, -2, 1)
+> 
+> X <- matrix(data=c(x1,x2,x3), nrow=3, ncol=3)
+> y <- c(8,4,3)
+> 
+> X %*% c(1,1,1)
+     [,1]
+[1,]    8
+[2,]    4
+[3,]    3
+> 
+> solve(X) %*% y
+     [,1]
+[1,]    1
+[2,]    1
+[3,]    1
+> 
+> 
+> x1 <- c(4, 9, 1)
+> x2 <- c(1, -4, 1)
+> x3 <- c(4, -2, 0)
+> 
+> D <- data.frame(x1,x2,x3,y)
+> lm(data=D, y ~ x1 + x2 + x3 - 1)
+
+Call:
+lm(formula = y ~ x1 + x2 + x3 - 1, data = D)
+
+Coefficients:
+    x1      x2      x3  
+1.2759  1.7241  0.2931  
+
+> 
+> 
+> x1 <- c(3, -1)
+> x2 <- c(-1, 4)
+> 
+> X <- matrix(data=c(x1, x2), nrow=2, ncol=2)
+> b <- matrix(c(10,4))
+> 
+> solve(X) %*% b
+     [,1]
+[1,]    4
+[2,]    2
+> 
+> proc.time()
+   user  system elapsed 
+  0.961   0.099   2.091 

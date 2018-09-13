@@ -1,0 +1,654 @@
+
+R version 3.4.2 (2017-09-28) -- "Short Summer"
+Copyright (C) 2017 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> library(wbstats)
+Warning message:
+package ‘wbstats’ was built under R version 3.4.3 
+> library(tidyverse)
+Loading tidyverse: ggplot2
+Loading tidyverse: tibble
+Loading tidyverse: tidyr
+Loading tidyverse: readr
+Loading tidyverse: purrr
+Loading tidyverse: dplyr
+Conflicts with tidy packages ---------------------------------------------------
+filter(): dplyr, stats
+lag():    dplyr, stats
+Warning messages:
+1: package ‘tibble’ was built under R version 3.4.3 
+2: package ‘tidyr’ was built under R version 3.4.3 
+> library(rgdal)
+Loading required package: sp
+rgdal: version: 1.2-15, (SVN revision 691)
+ Geospatial Data Abstraction Library extensions to R successfully loaded
+ Loaded GDAL runtime: GDAL 2.1.3, released 2017/20/01
+ Path to GDAL shared files: /Users/bcooley/Library/R/3.4/library/rgdal/gdal
+ GDAL binary built with GEOS: FALSE 
+ Loaded PROJ.4 runtime: Rel. 4.9.3, 15 August 2016, [PJ_VERSION: 493]
+ Path to PROJ.4 shared files: /Users/bcooley/Library/R/3.4/library/rgdal/proj
+ Linking to sp version: 1.2-5 
+> library(rworldmap)
+### Welcome to rworldmap ###
+For a short introduction type : 	 vignette('rworldmap')
+> library(plotly)
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+> library(reshape2)
+
+Attaching package: ‘reshape2’
+
+The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+Warning message:
+package ‘reshape2’ was built under R version 3.4.3 
+> 
+> # gdp per capita, life expectancy, literacy rate
+> inds <- c('NY.GDP.PCAP.CD', 'SP.DYN.LE00.IN', 'SE.ADT.LITR.ZS')
+> 
+> # get data from world bank
+> data <- wb(country='countries_only', indicator=inds, 
++            startdate=2007, enddate=2017, return_wide = TRUE, POSIXct = TRUE) %>% as_tibble()
+> summary(data)
+    iso3c               date              iso2c             country         
+ Length:2304        Length:2304        Length:2304        Length:2304       
+ Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+    date_ct           granularity        NY.GDP.PCAP.CD     SE.ADT.LITR.ZS  
+ Min.   :2007-01-01   Length:2304        Min.   :   170.8   Min.   : 15.46  
+ 1st Qu.:2009-01-01   Class :character   1st Qu.:  1728.5   1st Qu.: 78.05  
+ Median :2012-01-01   Mode  :character   Median :  5589.4   Median : 92.84  
+ Mean   :2011-12-07                      Mean   : 15540.6   Mean   : 84.28  
+ 3rd Qu.:2015-01-01                      3rd Qu.: 18291.9   3rd Qu.: 96.41  
+ Max.   :2017-01-01                      Max.   :192989.2   Max.   :100.00  
+                                         NA's   :99         NA's   :1944    
+ SP.DYN.LE00.IN 
+ Min.   :45.50  
+ 1st Qu.:65.57  
+ Median :73.04  
+ Mean   :70.91  
+ 3rd Qu.:76.93  
+ Max.   :85.42  
+ NA's   :305    
+> dataS <- data %>% select('country', 'date', inds)
+> 
+> # aggregate over 10 year period
+> dataM <- dataS %>% group_by(country) %>%
++   summarize_at(vars(-c(date)), funs(mean(., na.rm=T)))
+> dataM <- left_join(dataM, unique(data[, c('country', 'iso3c')]), by='country')
+> summary(dataM)
+   country          NY.GDP.PCAP.CD     SP.DYN.LE00.IN  SE.ADT.LITR.ZS  
+ Length:214         Min.   :   257.4   Min.   :48.75   Min.   : 15.46  
+ Class :character   1st Qu.:  1733.9   1st Qu.:65.51   1st Qu.: 67.33  
+ Mode  :character   Median :  5872.1   Median :73.45   Median : 91.75  
+                    Mean   : 16400.6   Mean   :71.04   Mean   : 80.04  
+                    3rd Qu.: 19285.4   3rd Qu.:76.81   3rd Qu.: 97.56  
+                    Max.   :164302.8   Max.   :85.42   Max.   :100.00  
+                    NA's   :7          NA's   :11      NA's   :76      
+    iso3c          
+ Length:214        
+ Class :character  
+ Mode  :character  
+                   
+                   
+                   
+                   
+> dataM
+# A tibble: 214 x 5
+   country             NY.GDP.PCAP.CD SP.DYN.LE00.IN SE.ADT.LITR.ZS iso3c
+   <chr>                        <dbl>          <dbl>          <dbl> <chr>
+ 1 Afghanistan                   545.           61.8           31.7 AFG  
+ 2 Albania                      4226.           77.1           96.7 ALB  
+ 3 Algeria                      4664.           75.0           75.1 DZA  
+ 4 American Samoa              11019.          NaN            NaN   ASM  
+ 5 Andorra                     41297.          NaN            100.  AND  
+ 6 Angola                       3922.           59.0           66.0 AGO  
+ 7 Antigua and Barbuda         13376.           75.6          NaN   ATG  
+ 8 Argentina                   11478.           75.8           98.1 ARG  
+ 9 Armenia                      3597.           73.7           99.7 ARM  
+10 Aruba                       25539.           75.2           96.8 ABW  
+# ... with 204 more rows
+> 
+> # replace literacy rate NAs with 97.5 (mostly OECD)
+> dataM$SE.ADT.LITR.ZS <- ifelse(is.na(dataM$SE.ADT.LITR.ZS), 97.5, dataM$SE.ADT.LITR.ZS)
+> 
+> # filter NAs
+> dataM <- dataM %>% filter(!is.na(NY.GDP.PCAP.CD), !is.na(SP.DYN.LE00.IN), !is.na(SE.ADT.LITR.ZS))
+> dataM
+# A tibble: 196 x 5
+   country             NY.GDP.PCAP.CD SP.DYN.LE00.IN SE.ADT.LITR.ZS iso3c
+   <chr>                        <dbl>          <dbl>          <dbl> <chr>
+ 1 Afghanistan                   545.           61.8           31.7 AFG  
+ 2 Albania                      4226.           77.1           96.7 ALB  
+ 3 Algeria                      4664.           75.0           75.1 DZA  
+ 4 Angola                       3922.           59.0           66.0 AGO  
+ 5 Antigua and Barbuda         13376.           75.6           97.5 ATG  
+ 6 Argentina                   11478.           75.8           98.1 ARG  
+ 7 Armenia                      3597.           73.7           99.7 ARM  
+ 8 Aruba                       25539.           75.2           96.8 ABW  
+ 9 Australia                   55085.           81.9           97.5 AUS  
+10 Austria                     48362.           80.8           97.5 AUT  
+# ... with 186 more rows
+> colnames(dataM)[2:4] <- c('pcgdp', 'lifexp', 'litr')
+> 
+> # 2D, 3D plots
+> # dataP <- dataM %>% filter(!is.na(pcgdp) & !is.na(lifexp) & !is.na(litr))
+> 
+> plot_ly(data=dataM, x=~pcgdp, y=~lifexp,
++         mode='markers', 
++         hoverinfo='text',
++         text=~country)
+No trace type specified:
+  Based on info supplied, a 'scatter' trace seems appropriate.
+  Read more about this trace type -> https://plot.ly/r/reference/#scatter
+> 
+> fit2d <- lm(lifexp ~ pcgdp, data = dataM)
+> 
+> plot_ly(data=dataM, x=~pcgdp, y=~lifexp,
++         mode='markers', 
++         hoverinfo='text',
++         text=~country) %>%
++   add_markers() %>%
++   add_lines(x=~pcgdp, y=fitted(fit2d)) %>%
++   layout(showlegend = FALSE)
+> 
+> 
+> plot_ly(data=dataM, x=~pcgdp, y=~litr, z=~lifexp,
++         mode='markers', 
++         hoverinfo='text',
++         text=~country)
+No trace type specified:
+  Based on info supplied, a 'scatter3d' trace seems appropriate.
+  Read more about this trace type -> https://plot.ly/r/reference/#scatter3d
+> 
+> fit3d <- lm(lifexp ~ pcgdp + litr, data = dataM)
+> 
+> xresolution <- 100
+> yresolution <- 1
+> 
+> #Setup Axis
+> axis_x <- seq(min(dataM$pcgdp), max(dataM$pcgdp), by = xresolution)
+> axis_y <- seq(min(dataM$litr), max(dataM$litr), by = yresolution)
+> 
+> surface <- expand.grid(pcgdp=axis_x, litr=axis_y)
+> surface$lifexp <- predict.lm(fit3d, surface)
+> surface2 <- acast(surface, litr ~ pcgdp, value.var = "lifexp") #y ~ x
+> 
+> 
+> d <- dataM %>% select(pcgdp, litr)
+> vals <- predict(fit3d, newdata=d)
+> m <- matrix(vals, nrow=length(unique(dataM$pcgdp)), ncol=length(unique(dataM$litr)))
+> 
+> plot_ly(data=dataM, x=~pcgdp, y=~litr, z=~lifexp,
++         mode='markers', 
++         hoverinfo='text',
++         text=~country) %>%
++   add_markers() %>%
++   add_surface(x=axis_x, y=axis_y, z=surface2)
+Warning message:
+'surface' objects don't have these attributes: 'mode'
+Valid attributes include:
+'type', 'visible', 'showlegend', 'legendgroup', 'opacity', 'name', 'uid', 'ids', 'customdata', 'hoverinfo', 'hoverlabel', 'stream', 'z', 'x', 'y', 'text', 'surfacecolor', 'cauto', 'cmin', 'cmax', 'colorscale', 'autocolorscale', 'reversescale', 'showscale', 'colorbar', 'contours', 'hidesurface', 'lightposition', 'lighting', '_deprecated', 'scene', 'xcalendar', 'ycalendar', 'zcalendar', 'idssrc', 'customdatasrc', 'hoverinfosrc', 'zsrc', 'xsrc', 'ysrc', 'textsrc', 'surfacecolorsrc', 'key', 'set', 'frame', 'transforms', '_isNestedKey', '_isSimpleKey', '_isGraticule'
+ 
+> 
+> # drop identifiers
+> inds2 <- c('pcgdp', 'lifexp', 'litr')
+> dataV <- dataM %>% select(inds2)
+> 
+> # calculate principal components
+> pca <- prcomp(dataV, scale.=T)
+> pca1 <- pca$x[,1]
+> 
+> # reappend country names
+> pcaN <- cbind.data.frame(dataM$country, pca1)
+> pcaN %>% arrange(pca1)
+                     dataM$country         pca1
+1                             Chad -3.532900819
+2                     Sierra Leone -3.447568824
+3         Central African Republic -3.353824030
+4                            Niger -3.289246842
+5                      South Sudan -3.189887133
+6                    Cote d'Ivoire -2.990792646
+7                             Mali -2.932984925
+8                           Guinea -2.922671705
+9                     Burkina Faso -2.811268548
+10                         Nigeria -2.709852178
+11                           Benin -2.636682020
+12                   Guinea-Bissau -2.588093464
+13                     Afghanistan -2.518018497
+14                      Mozambique -2.455687041
+15                     Gambia, The -2.367688756
+16                         Burundi -2.346091203
+17                         Liberia -2.329030510
+18                        Ethiopia -2.263735179
+19                      Mauritania -2.079626315
+20                         Lesotho -2.022529329
+21                            Togo -1.986023673
+22                         Comoros -1.984413525
+23                          Malawi -1.880374808
+24                        Cameroon -1.829009918
+25                         Senegal -1.816856222
+26                           Sudan -1.782926800
+27                Congo, Dem. Rep. -1.738367781
+28                          Uganda -1.701256199
+29                          Angola -1.692173844
+30                        Eswatini -1.656688871
+31                          Zambia -1.656602296
+32                        Pakistan -1.557313798
+33                            Iraq -1.547396053
+34                         Eritrea -1.521418155
+35                         Lao PDR -1.518810047
+36                        Zimbabwe -1.485637405
+37                           Ghana -1.420241913
+38                     Timor-Leste -1.382243394
+39                          Rwanda -1.368466810
+40                      Madagascar -1.338713870
+41                        Tanzania -1.293297841
+42                          Bhutan -1.280531704
+43                           Nepal -1.237266759
+44                         Somalia -1.218471515
+45                      Bangladesh -1.175324029
+46                     Congo, Rep. -1.172021231
+47                         Namibia -1.140451386
+48                           Kenya -1.130305258
+49                           India -1.051298509
+50                         Myanmar -1.001991535
+51                    South Africa -0.965018275
+52                        Cambodia -0.882695019
+53           Sao Tome and Principe -0.837171471
+54                           Gabon -0.770412984
+55                        Djibouti -0.722603017
+56               Equatorial Guinea -0.704910622
+57                         Morocco -0.678057328
+58                           Haiti -0.673558688
+59                Egypt, Arab Rep. -0.633970722
+60                          Guyana -0.621848746
+61                        Botswana -0.556643130
+62                     Yemen, Rep. -0.508573393
+63                Papua New Guinea -0.410485395
+64                         Bolivia -0.393835714
+65                       Guatemala -0.374426577
+66                        Kiribati -0.370426017
+67                       Indonesia -0.226059199
+68                         Algeria -0.224680322
+69                     El Salvador -0.180541439
+70                     Philippines -0.177432573
+71                    Turkmenistan -0.175274398
+72                      Cabo Verde -0.158604761
+73                        Honduras -0.147748845
+74                        Mongolia -0.141256257
+75                         Tunisia -0.134273795
+76                 Solomon Islands -0.107644874
+77           Micronesia, Fed. Sts. -0.106425941
+78                      Tajikistan -0.062888433
+79                 Kyrgyz Republic -0.031163888
+80                            Fiji -0.009715671
+81              Iran, Islamic Rep.  0.012735849
+82                          Belize  0.015321006
+83                         Moldova  0.022963462
+84                          Kosovo  0.030711047
+85                        Suriname  0.048127426
+86                      Uzbekistan  0.051943830
+87                         Vanuatu  0.068481024
+88            Syrian Arab Republic  0.078637930
+89              Dominican Republic  0.081117747
+90                         Ukraine  0.082057842
+91                        Paraguay  0.100259649
+92              West Bank and Gaza  0.121352951
+93                       Sri Lanka  0.151270306
+94                      Kazakhstan  0.179659646
+95                          Jordan  0.199649604
+96                      Azerbaijan  0.207812040
+97                       Mauritius  0.222337021
+98                            Peru  0.224362548
+99                        Colombia  0.225969658
+100             Russian Federation  0.231385443
+101                          Tonga  0.239955295
+102                        Vietnam  0.251036563
+103                        Belarus  0.251555126
+104 St. Vincent and the Grenadines  0.260158342
+105                          Libya  0.261652011
+106                        Ecuador  0.267391661
+107                      Nicaragua  0.269104494
+108                        Georgia  0.273592857
+109                       Thailand  0.274032547
+110                         Brazil  0.289962548
+111                          Samoa  0.318652919
+112                        Grenada  0.327923958
+113            Trinidad and Tobago  0.337886395
+114                        Armenia  0.342938883
+115                       Malaysia  0.355137441
+116                     Seychelles  0.381305266
+117                         Turkey  0.400334110
+118                 Macedonia, FYR  0.401981238
+119                          China  0.402631795
+120                       Bulgaria  0.409544399
+121                        Jamaica  0.417129380
+122                         Serbia  0.427713720
+123                  Venezuela, RB  0.442068426
+124                      St. Lucia  0.465524255
+125                        Romania  0.472000801
+126         Bosnia and Herzegovina  0.494890985
+127                         Mexico  0.506294031
+128                        Albania  0.526566006
+129                     Montenegro  0.539214935
+130                        Lebanon  0.561292206
+131                      Lithuania  0.568921757
+132                         Latvia  0.574138407
+133                           Oman  0.584900851
+134                        Hungary  0.591817521
+135                         Panama  0.604292247
+136                       Maldives  0.610598649
+137                   Saudi Arabia  0.612702574
+138                      Argentina  0.640197044
+139            Antigua and Barbuda  0.653305276
+140                       Barbados  0.688798050
+141                         Poland  0.713960497
+142                Slovak Republic  0.751490976
+143                        Uruguay  0.762271949
+144                        Croatia  0.788941928
+145                           Cuba  0.807596595
+146                     Costa Rica  0.810287523
+147                        Bahrain  0.832699575
+148                        Estonia  0.834361365
+149                          Aruba  0.886294231
+150                          Chile  0.886782697
+151                 Czech Republic  0.965014835
+152                   Bahamas, The  0.973708626
+153                    Puerto Rico  1.063406324
+154                       Portugal  1.088480545
+155                      Greenland  1.115763468
+156                         Kuwait  1.116911981
+157                          Malta  1.158130580
+158                         Greece  1.199893638
+159                       Slovenia  1.208988623
+160              Brunei Darussalam  1.237961158
+161                    Korea, Rep.  1.292373722
+162                           Guam  1.297244207
+163                         Cyprus  1.351898105
+164           United Arab Emirates  1.352552421
+165          Virgin Islands (U.S.)  1.427035144
+166                          Spain  1.543641676
+167                         Israel  1.564215947
+168                    New Zealand  1.615378088
+169                          Italy  1.688587808
+170                 United Kingdom  1.705682632
+171                        Germany  1.714114777
+172                        Belgium  1.744736090
+173                         France  1.762996906
+174                  United States  1.772416616
+175           Hong Kong SAR, China  1.782002516
+176                        Finland  1.813336775
+177                          Japan  1.846459072
+178                        Austria  1.853522793
+179                         Canada  1.871570913
+180                  Faroe Islands  1.913776887
+181                    Netherlands  1.917230507
+182                      Singapore  1.944561369
+183                        Denmark  2.008610112
+184                        Ireland  2.051245051
+185                        Iceland  2.057263287
+186                         Sweden  2.062241229
+187                      Australia  2.092628838
+188                          Qatar  2.172361768
+189               Macao SAR, China  2.390299951
+190                Channel Islands  2.407129605
+191                     San Marino  2.553310915
+192                    Switzerland  2.688589723
+193                        Bermuda  2.748104631
+194                         Norway  2.833492589
+195                     Luxembourg  3.277081391
+196                  Liechtenstein  4.366480424
+> 
+> # create map
+> pcaISO <- cbind.data.frame(dataM$iso3c, pca1)
+> pcaISO %>% arrange(pca1)
+    dataM$iso3c         pca1
+1           TCD -3.532900819
+2           SLE -3.447568824
+3           CAF -3.353824030
+4           NER -3.289246842
+5           SSD -3.189887133
+6           CIV -2.990792646
+7           MLI -2.932984925
+8           GIN -2.922671705
+9           BFA -2.811268548
+10          NGA -2.709852178
+11          BEN -2.636682020
+12          GNB -2.588093464
+13          AFG -2.518018497
+14          MOZ -2.455687041
+15          GMB -2.367688756
+16          BDI -2.346091203
+17          LBR -2.329030510
+18          ETH -2.263735179
+19          MRT -2.079626315
+20          LSO -2.022529329
+21          TGO -1.986023673
+22          COM -1.984413525
+23          MWI -1.880374808
+24          CMR -1.829009918
+25          SEN -1.816856222
+26          SDN -1.782926800
+27          COD -1.738367781
+28          UGA -1.701256199
+29          AGO -1.692173844
+30          SWZ -1.656688871
+31          ZMB -1.656602296
+32          PAK -1.557313798
+33          IRQ -1.547396053
+34          ERI -1.521418155
+35          LAO -1.518810047
+36          ZWE -1.485637405
+37          GHA -1.420241913
+38          TLS -1.382243394
+39          RWA -1.368466810
+40          MDG -1.338713870
+41          TZA -1.293297841
+42          BTN -1.280531704
+43          NPL -1.237266759
+44          SOM -1.218471515
+45          BGD -1.175324029
+46          COG -1.172021231
+47          NAM -1.140451386
+48          KEN -1.130305258
+49          IND -1.051298509
+50          MMR -1.001991535
+51          ZAF -0.965018275
+52          KHM -0.882695019
+53          STP -0.837171471
+54          GAB -0.770412984
+55          DJI -0.722603017
+56          GNQ -0.704910622
+57          MAR -0.678057328
+58          HTI -0.673558688
+59          EGY -0.633970722
+60          GUY -0.621848746
+61          BWA -0.556643130
+62          YEM -0.508573393
+63          PNG -0.410485395
+64          BOL -0.393835714
+65          GTM -0.374426577
+66          KIR -0.370426017
+67          IDN -0.226059199
+68          DZA -0.224680322
+69          SLV -0.180541439
+70          PHL -0.177432573
+71          TKM -0.175274398
+72          CPV -0.158604761
+73          HND -0.147748845
+74          MNG -0.141256257
+75          TUN -0.134273795
+76          SLB -0.107644874
+77          FSM -0.106425941
+78          TJK -0.062888433
+79          KGZ -0.031163888
+80          FJI -0.009715671
+81          IRN  0.012735849
+82          BLZ  0.015321006
+83          MDA  0.022963462
+84          XKX  0.030711047
+85          SUR  0.048127426
+86          UZB  0.051943830
+87          VUT  0.068481024
+88          SYR  0.078637930
+89          DOM  0.081117747
+90          UKR  0.082057842
+91          PRY  0.100259649
+92          PSE  0.121352951
+93          LKA  0.151270306
+94          KAZ  0.179659646
+95          JOR  0.199649604
+96          AZE  0.207812040
+97          MUS  0.222337021
+98          PER  0.224362548
+99          COL  0.225969658
+100         RUS  0.231385443
+101         TON  0.239955295
+102         VNM  0.251036563
+103         BLR  0.251555126
+104         VCT  0.260158342
+105         LBY  0.261652011
+106         ECU  0.267391661
+107         NIC  0.269104494
+108         GEO  0.273592857
+109         THA  0.274032547
+110         BRA  0.289962548
+111         WSM  0.318652919
+112         GRD  0.327923958
+113         TTO  0.337886395
+114         ARM  0.342938883
+115         MYS  0.355137441
+116         SYC  0.381305266
+117         TUR  0.400334110
+118         MKD  0.401981238
+119         CHN  0.402631795
+120         BGR  0.409544399
+121         JAM  0.417129380
+122         SRB  0.427713720
+123         VEN  0.442068426
+124         LCA  0.465524255
+125         ROU  0.472000801
+126         BIH  0.494890985
+127         MEX  0.506294031
+128         ALB  0.526566006
+129         MNE  0.539214935
+130         LBN  0.561292206
+131         LTU  0.568921757
+132         LVA  0.574138407
+133         OMN  0.584900851
+134         HUN  0.591817521
+135         PAN  0.604292247
+136         MDV  0.610598649
+137         SAU  0.612702574
+138         ARG  0.640197044
+139         ATG  0.653305276
+140         BRB  0.688798050
+141         POL  0.713960497
+142         SVK  0.751490976
+143         URY  0.762271949
+144         HRV  0.788941928
+145         CUB  0.807596595
+146         CRI  0.810287523
+147         BHR  0.832699575
+148         EST  0.834361365
+149         ABW  0.886294231
+150         CHL  0.886782697
+151         CZE  0.965014835
+152         BHS  0.973708626
+153         PRI  1.063406324
+154         PRT  1.088480545
+155         GRL  1.115763468
+156         KWT  1.116911981
+157         MLT  1.158130580
+158         GRC  1.199893638
+159         SVN  1.208988623
+160         BRN  1.237961158
+161         KOR  1.292373722
+162         GUM  1.297244207
+163         CYP  1.351898105
+164         ARE  1.352552421
+165         VIR  1.427035144
+166         ESP  1.543641676
+167         ISR  1.564215947
+168         NZL  1.615378088
+169         ITA  1.688587808
+170         GBR  1.705682632
+171         DEU  1.714114777
+172         BEL  1.744736090
+173         FRA  1.762996906
+174         USA  1.772416616
+175         HKG  1.782002516
+176         FIN  1.813336775
+177         JPN  1.846459072
+178         AUT  1.853522793
+179         CAN  1.871570913
+180         FRO  1.913776887
+181         NLD  1.917230507
+182         SGP  1.944561369
+183         DNK  2.008610112
+184         IRL  2.051245051
+185         ISL  2.057263287
+186         SWE  2.062241229
+187         AUS  2.092628838
+188         QAT  2.172361768
+189         MAC  2.390299951
+190         CHI  2.407129605
+191         SMR  2.553310915
+192         CHE  2.688589723
+193         BMU  2.748104631
+194         NOR  2.833492589
+195         LUX  3.277081391
+196         LIE  4.366480424
+> colnames(pcaISO) <- c('iso3c', 'pca1')
+> mapData <- joinCountryData2Map(pcaISO, joinCode = 'ISO3', nameJoinColumn = 'iso3c')
+194 codes from your data successfully matched countries in the map
+2 codes from your data failed to match with a country code in the map
+49 codes from the map weren't represented in your data
+> 
+> png(filename='edi.png', width=1000, height=750)
+> mapCountryData(mapData, nameColumnToPlot = 'pca1', mapTitle = 'Economic Development Index', catMethod = 'pretty')
+You asked for 7 categories, 9 were used due to pretty() classification
+> dev.off()
+null device 
+          1 
+> 
+> proc.time()
+   user  system elapsed 
+  3.900   0.242   7.691 

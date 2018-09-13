@@ -1,0 +1,219 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.4' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6324,        211]
+NotebookOptionsPosition[      5667,        182]
+NotebookOutlinePosition[      6020,        198]
+CellTagsIndexPosition[      5977,        195]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{"u", ":=", 
+  RowBox[{"Graphics", "[", 
+   RowBox[{"Arrow", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", " ", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", " ", "4"}], "}"}]}], "}"}], "]"}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"v", ":=", 
+  RowBox[{"Graphics", "[", 
+   RowBox[{"Arrow", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", " ", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "2"}], ",", " ", "1"}], "}"}]}], "}"}], "]"}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"Show", "[", 
+  RowBox[{"u", ",", "v", ",", 
+   RowBox[{"PlotRange", "->", "All"}], ",", 
+   RowBox[{"Axes", "\[Rule]", "True"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.7415956507694187`*^9, 3.74159573505026*^9}, {
+  3.741595797247583*^9, 3.741595800518382*^9}, {3.7415958613652678`*^9, 
+  3.741595943782753*^9}, {3.7415959751308413`*^9, 3.7415960167977324`*^9}, {
+  3.741596072903956*^9, 3.7415961672976522`*^9}, {3.741596201104837*^9, 
+  3.741596242675653*^9}, {3.7415962866367407`*^9, 3.741596323858795*^9}, {
+  3.741596360386832*^9, 3.741596459029338*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{ArrowBox[{{0, 0}, {2, 4}}], ArrowBox[{{0, 0}, {-2, 1}}]},
+  Axes->True,
+  PlotRange->All]], "Output",
+ CellChangeTimes->{{3.7415963823949957`*^9, 3.7415964593951063`*^9}, 
+   3.7415965491323547`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"u", ":=", 
+  RowBox[{"Graphics3D", "[", 
+   RowBox[{"Arrow", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", " ", "0", ",", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"3", ",", "5", ",", " ", "2"}], "}"}]}], "}"}], "]"}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"v", ":=", 
+  RowBox[{"Graphics3D", "[", 
+   RowBox[{"Arrow", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", " ", "0", ",", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"9", ",", " ", "15", ",", " ", "6"}], "}"}]}], "}"}], "]"}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"Show", "[", 
+  RowBox[{"u", ",", "v", ",", 
+   RowBox[{"PlotRange", "->", "All"}], ",", 
+   RowBox[{"Axes", "\[Rule]", "True"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.741596472662272*^9, 3.741596530194281*^9}}],
+
+Cell[BoxData[
+ Graphics3DBox[{Arrow3DBox[{{0, 0, 0}, {3, 5, 2}}], 
+   Arrow3DBox[{{0, 0, 0}, {9, 15, 6}}]},
+  Axes->True,
+  ImageSize->{402.11209072745714`, 351.31761728778844`},
+  PlotRange->All,
+  ViewPoint->{1.6164089647784434`, -2.5695243293461267`, 1.4949136361282593`},
+  
+  ViewVertical->{0.1810163307535727, -0.13722320148005565`, 
+   2.4614194388804256`}]], "Output",
+ CellChangeTimes->{{3.741596507016468*^9, 3.741596550698093*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"u", ":=", 
+  RowBox[{"Graphics", "[", 
+   RowBox[{"Arrow", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", " ", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "3"}], ",", " ", 
+        RowBox[{"-", "1"}]}], "}"}]}], "}"}], "]"}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"v", ":=", 
+  RowBox[{"Graphics", "[", 
+   RowBox[{"Arrow", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", " ", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"6", ",", " ", "2"}], "}"}]}], "}"}], "]"}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"Show", "[", 
+  RowBox[{"u", ",", "v", ",", 
+   RowBox[{"PlotRange", "->", "All"}], ",", 
+   RowBox[{"Axes", "\[Rule]", "True"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.741596619660008*^9, 3.741596665494828*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{ArrowBox[{{0, 0}, {-3, -1}}], ArrowBox[{{0, 0}, {6, 2}}]},
+  Axes->True,
+  PlotRange->All]], "Output",
+ CellChangeTimes->{{3.741596626021963*^9, 3.7415966657318983`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"u", ":=", 
+  RowBox[{"Graphics3D", "[", 
+   RowBox[{"Arrow", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", " ", "0", ",", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", "2", ",", " ", "0"}], "}"}]}], "}"}], "]"}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"v", ":=", 
+  RowBox[{"Graphics3D", "[", 
+   RowBox[{"Arrow", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", " ", "0", ",", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", " ", "2", ",", " ", "4"}], "}"}]}], "}"}], "]"}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"Show", "[", 
+  RowBox[{"u", ",", "v", ",", 
+   RowBox[{"PlotRange", "->", "All"}], ",", 
+   RowBox[{"Axes", "\[Rule]", "True"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.741596586553994*^9, 3.7415965972958317`*^9}}],
+
+Cell[BoxData[
+ Graphics3DBox[{Arrow3DBox[{{0, 0, 0}, {2, 2, 0}}], 
+   Arrow3DBox[{{0, 0, 0}, {2, 2, 4}}]},
+  Axes->True,
+  PlotRange->All,
+  ViewPoint->{1.3, -2.4, 2.},
+  ViewVertical->{0., 0., 1.}]], "Output",
+ CellChangeTimes->{3.741596597799358*^9}]
+}, Open  ]]
+},
+WindowSize->{808, 591},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"10.4 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 11, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1199, 31, 63, "Input"],
+Cell[1782, 55, 227, 5, 383, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2046, 65, 877, 25, 63, "Input"],
+Cell[2926, 92, 442, 10, 366, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3405, 107, 875, 27, 63, "Input"],
+Cell[4283, 136, 198, 4, 145, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4518, 145, 878, 25, 63, "Input"],
+Cell[5399, 172, 252, 7, 481, "Output"]
+}, Open  ]]
+}
+]
+*)
+

@@ -99,25 +99,18 @@ The course will provide students with basic skills necessary to express theoreti
 
 The appendix of McCarty and Meirowitz's book contains a nice treatment of many of the topics we'll cover, and is a useful companion text to this part of the course.
 
-- [Practice Midterm](https://rawgit.com/brendancooley/imps2018/master/exams/midtermPractice.pdf)
-- [Practice Midterm Solutions](https://rawgit.com/brendancooley/imps2018/master/exams/midtermPracticeSolutions.pdf)
-
-
 | Date   | Morning Session             | Afternoon Session                               | Problem Set |
 |--------|-----------------------------|-------------------------------------------------|-------------|
-| Aug 27 | Midterm Exam (Closed Book) <br> [Solutions](https://rawgit.com/brendancooley/imps2018/master/exams/midtermSolutions.pdf)      | Exam Debrief, Summer Review                     |  | 
-| Aug 28 | (1) [Proofs and Logic](https://rawgit.com/brendancooley/imps2018/master/notes/1_logic&proofs_solutions.pdf)            | (2) [Ordered Sets](https://rawgit.com/brendancooley/imps2018/master/notes/2_orderedSets_solutions.pdf)                              | Problem Set: <br> (1): 1-2 <br> (2): 1-3 |
-| Aug 29 | (3) [Metric Spaces](https://rawgit.com/brendancooley/imps2018/master/notes/3_metricSpaces_solutions.pdf)    | Metric Spaces                                  | Problem Set: <br> (3): 1-6 |
-| Aug 30 | (4) [Linear Spaces](https://rawgit.com/brendancooley/imps2018/master/notes/4_linearSpaces_solutions.pdf)                 | (5) [Normed Linear Spaces](https://rawgit.com/brendancooley/imps2018/master/notes/5_normedLinearSpaces.pdf) | Problem Set: <br> (4): 1-4 <br> (5): 1-3 |
-| Aug 31 | (6) [Functions: Continuous](https://rawgit.com/brendancooley/imps2018/master/notes/6_functionsContinuous.pdf)        | (7) [Functions: Monotone, Linear, Convex/Concave](https://rawgit.com/brendancooley/imps2018/master/notes/7_functionsOther.pdf)  | Problem Set: <br> (6): 1-4 <br> (7): 1-3 | 
-| Sep 4  | (8) [Inner Product Spaces, Orthogonality, Projection](https://rawgit.com/brendancooley/imps2018/master/notes/8_innerProductSpaces.pdf)    | (9) [Functions: Smooth](https://rawgit.com/brendancooley/imps2018/master/notes/9_functionsSmooth.pdf)                   | Problem Set: <br> (8): 1-3 <br> (9): 1-4 | 
-| Sep 5  | (10) [Optimization: Unconstrained](https://rawgit.com/brendancooley/imps2018/master/notes/10_optimization.pdf) | Optimization: Equality Constrained                    | Problem Set: <br> (10): 1-6 | 
-| Sep 6  | (11) [Comparative Statics](https://rawgit.com/brendancooley/imps2018/master/notes/11_comparativeStatics.pdf)   |  (12) [Optimization: Existence and Uniqueness](https://rawgit.com/brendancooley/imps2018/master/notes/12_existence.pdf) | Problem Set: <br> (11): 1-2 <br> (12): 1-2  | 
+| Aug 27 | Midterm Exam (Closed Book)      | Exam Debrief, Summer Review                     |  | 
+| Aug 28 | [Proofs and Logic](https://rawgit.com/brendancooley/imps2018/master/materials/notes/logicProofs.pdf)            | [Ordered Sets](https://rawgit.com/brendancooley/imps2018/master/materials/notes/orderedSets.pdf)                              | Problem Set: |
+| Aug 29 | [Metric Spaces](https://rawgit.com/brendancooley/imps2018/master/materials/notes/metricSpaces.pdf)      | Metric Spaces                                  | Problem Set: |
+| Aug 30 | [Linear Spaces](https://rawgit.com/brendancooley/imps2018/master/materials/notes/linearSpaces.pdf)                   | [Normed Linear Spaces](https://rawgit.com/brendancooley/imps2018/master/materials/notes/normedLinearSpaces.pdf)   | Problem Set: |
+| Aug 31 | [Functions: Continuous](https://rawgit.com/brendancooley/imps2018/master/materials/notes/functionsContinuous.pdf)          | [Functions: Monotone, Linear, Convex/Concave](https://rawgit.com/brendancooley/imps2018/master/materials/notes/functionsOther.pdf)    | Problem Set: | 
+| Sep 4  | [Inner Product Spaces, Orthogonality, Projection](https://rawgit.com/brendancooley/imps2018/master/materials/notes/innerProductSpaces.pdf)      | [Functions: Smooth](https://rawgit.com/brendancooley/imps2018/master/materials/notes/functionsSmooth.pdf)                     | Problem Set: | 
+| Sep 5  | [Optimization: Unconstrained](https://rawgit.com/brendancooley/imps2018/master/materials/notes/optimization.pdf)   | Optimization: Equality Constrained                    | Problem Set: | 
+| Sep 6  | [Comparative Statics](https://rawgit.com/brendancooley/imps2018/master/materials/notes/comparativeStatics.pdf)     |  (12) [Optimization: Existence and Uniqueness](https://rawgit.com/brendancooley/imps2018/master/materials/notes/fixedPoints.pdf) | Problem Set:  | 
 | Sep 7  | Exam Review (I)   | Exam Review (II)                                     |  | 
 | Sep 11 | Final Exam (Closed Book) <br> 10:00am-1:00pm <br> Fisher 200   |                                                 |             |       
-
-- [Practice Final](https://rawgit.com/brendancooley/imps2018/master/exams/finalPractice.pdf)
-- [Practice Final Solutions](https://rawgit.com/brendancooley/imps2018/master/exams/finalPracticeSolutions.pdf)
 
 ### Getting Started with LaTeX
 

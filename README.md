@@ -1,6 +1,6 @@
 # Introduction to Mathematics for Political Science
 
-Department of Politics, Princeton University, Summer 2018
+Department of Politics, Princeton University, Summer 2019
 
 # Acknowledgements
 

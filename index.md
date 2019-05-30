@@ -101,7 +101,7 @@ Ross's *Elementary Analysis* is a useful companion text to this part of the cour
 
 | Date   | Morning Session             | Afternoon Session                               | Problem Set |
 |--------|-----------------------------|-------------------------------------------------|-------------|
-| Aug 26 | Midterm Exam (Closed Book)      | Exam Debrief, Summer Review                     |  |
+| Aug 26 | Introduction, Summer Review   | Midterm Exam (Closed Book)              |  |
 | Aug 27 | Proofs and Logic            | Ordered Sets                            | Problem Set |
 | Aug 28 | Metric Spaces      | Metric Spaces                                  | Problem Set |
 | Aug 29 | Linear Spaces                   | Normed Linear Spaces   | Problem Set |

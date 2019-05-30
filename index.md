@@ -2,6 +2,8 @@
 layout: default
 ---
 
+*Editing in progress*
+
 ### Basic Information
 
 **Summer Self-Study:** June 15 - August 16
@@ -15,12 +17,12 @@ layout: default
 
 **Office Hours:** 4:00pm-6:00pm Fisher B16
 
-**Instructors:** 
+**Instructors:**
 
 - Brendan Cooley
     - 4th year Ph.D. student (International Relations, Formal & Quantitative Methods)
-    - [bcooley@princeton.edu](mailto:bcooley@princeton.edu) 
-    - Office: Fisher 300 
+    - [bcooley@princeton.edu](mailto:bcooley@princeton.edu)
+    - Office: Fisher 300
 - Dan Gibbs
     - 4th year Ph.D. student (American Politics, Formal & Quantitative Methods)
     - [dagibbs@princeton.edu](mailto:dagibbs@princeton.edu)
@@ -44,16 +46,16 @@ The core course will meet weekdays between August 27 and September 10 (Labor Day
 
 ### Requirements
 
-**Problem Sets:** Students are required to complete the weekly problem sets during the summer period and the daily problem sets during the camp period. Problem sets during the summer component are due by *midnight each Thursday* (see table of deadlines below). Completed problem sets can be uploaded using the linked Dropbox file requests in the "Due" column of the summer schedule. We understand that summer often features travel and other activities that get in the way of doing math. Please get in touch if you don't think you'll be able to submit assignments by their due date, and we'll work on an alternative assignment schedule for you. 
+**Problem Sets:** Students are required to complete the weekly problem sets during the summer period and the daily problem sets during the camp period. Problem sets during the summer component are due by *midnight each Thursday* (see table of deadlines below). Completed problem sets can be uploaded using the linked Dropbox file requests in the "Due" column of the summer schedule. We understand that summer often features travel and other activities that get in the way of doing math. Please get in touch if you don't think you'll be able to submit assignments by their due date, and we'll work on an alternative assignment schedule for you.
 
 Problem sets during the camp component are due by *10:00am the morning after they are distributed*. Students are encouraged to work together on the problem sets, but are expected to write up their solutions individually. The camp will conclude with a final exam given in class at *10:00am on September 10*.
 
-LaTeX is a typesetting system that will likely become a big part of your life as a graduate student. This summer is a good time to get familiar with it. We ask that you begin submitting typed problem sets by *week 3 of the summer component.* Below, we provide links to tutorials to help you get started. Feel free to post questions about how to use LaTeX on Piazza. Learning is a slog at the beginning, but it will make your life much easier down the road. 
+LaTeX is a typesetting system that will likely become a big part of your life as a graduate student. This summer is a good time to get familiar with it. We ask that you begin submitting typed problem sets by *week 3 of the summer component.* Below, we provide links to tutorials to help you get started. Feel free to post questions about how to use LaTeX on Piazza. Learning is a slog at the beginning, but it will make your life much easier down the road.
 
 **Exams:**
 
 - August 27: Pre-Exam covering summer topics (calculus, probability, and linear algebra)
-- September 10: Final Exam 
+- September 10: Final Exam
 
 **Grading:**
 
@@ -101,16 +103,16 @@ The appendix of McCarty and Meirowitz's book contains a nice treatment of many o
 
 | Date   | Morning Session             | Afternoon Session                               | Problem Set |
 |--------|-----------------------------|-------------------------------------------------|-------------|
-| Aug 27 | Midterm Exam (Closed Book)      | Exam Debrief, Summer Review                     |  | 
+| Aug 27 | Midterm Exam (Closed Book)      | Exam Debrief, Summer Review                     |  |
 | Aug 28 | [Proofs and Logic](https://rawgit.com/brendancooley/imps2018/master/materials/notes/logicProofs.pdf)            | [Ordered Sets](https://rawgit.com/brendancooley/imps2018/master/materials/notes/orderedSets.pdf)                              | Problem Set: |
 | Aug 29 | [Metric Spaces](https://rawgit.com/brendancooley/imps2018/master/materials/notes/metricSpaces.pdf)      | Metric Spaces                                  | Problem Set: |
 | Aug 30 | [Linear Spaces](https://rawgit.com/brendancooley/imps2018/master/materials/notes/linearSpaces.pdf)                   | [Normed Linear Spaces](https://rawgit.com/brendancooley/imps2018/master/materials/notes/normedLinearSpaces.pdf)   | Problem Set: |
-| Aug 31 | [Functions: Continuous](https://rawgit.com/brendancooley/imps2018/master/materials/notes/functionsContinuous.pdf)          | [Functions: Monotone, Linear, Convex/Concave](https://rawgit.com/brendancooley/imps2018/master/materials/notes/functionsOther.pdf)    | Problem Set: | 
-| Sep 4  | [Inner Product Spaces, Orthogonality, Projection](https://rawgit.com/brendancooley/imps2018/master/materials/notes/innerProductSpaces.pdf)      | [Functions: Smooth](https://rawgit.com/brendancooley/imps2018/master/materials/notes/functionsSmooth.pdf)                     | Problem Set: | 
-| Sep 5  | [Optimization: Unconstrained](https://rawgit.com/brendancooley/imps2018/master/materials/notes/optimization.pdf)   | Optimization: Equality Constrained                    | Problem Set: | 
-| Sep 6  | [Comparative Statics](https://rawgit.com/brendancooley/imps2018/master/materials/notes/comparativeStatics.pdf)     |  [Optimization: Existence and Uniqueness](https://rawgit.com/brendancooley/imps2018/master/materials/notes/fixedPoints.pdf) | Problem Set:  | 
-| Sep 7  | Exam Review (I)   | Exam Review (II)                                     |  | 
-| Sep 11 | Final Exam (Closed Book) <br> 10:00am-1:00pm <br> Fisher 200   |                                                 |             |       
+| Aug 31 | [Functions: Continuous](https://rawgit.com/brendancooley/imps2018/master/materials/notes/functionsContinuous.pdf)          | [Functions: Monotone, Linear, Convex/Concave](https://rawgit.com/brendancooley/imps2018/master/materials/notes/functionsOther.pdf)    | Problem Set: |
+| Sep 4  | [Inner Product Spaces, Orthogonality, Projection](https://rawgit.com/brendancooley/imps2018/master/materials/notes/innerProductSpaces.pdf)      | [Functions: Smooth](https://rawgit.com/brendancooley/imps2018/master/materials/notes/functionsSmooth.pdf)                     | Problem Set: |
+| Sep 5  | [Optimization: Unconstrained](https://rawgit.com/brendancooley/imps2018/master/materials/notes/optimization.pdf)   | Optimization: Equality Constrained                    | Problem Set: |
+| Sep 6  | [Comparative Statics](https://rawgit.com/brendancooley/imps2018/master/materials/notes/comparativeStatics.pdf)     |  [Optimization: Existence and Uniqueness](https://rawgit.com/brendancooley/imps2018/master/materials/notes/fixedPoints.pdf) | Problem Set:  |
+| Sep 7  | Exam Review (I)   | Exam Review (II)                                     |  |
+| Sep 11 | Final Exam (Closed Book) <br> 10:00am-1:00pm <br> Fisher 200   |                                                 |             |
 
 ### Getting Started with LaTeX
 

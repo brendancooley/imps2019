@@ -2,8 +2,6 @@
 layout: default
 ---
 
-*Editing in progress*
-
 ### Basic Information
 
 **Summer Self-Study:** June 14 - August 15
@@ -106,7 +104,7 @@ Ross's *Elementary Analysis* is a useful companion text to this part of the cour
 | Aug 26 | Midterm Exam (Closed Book)      | Exam Debrief, Summer Review                     |  |
 | Aug 27 | Proofs and Logic            | Ordered Sets                            | Problem Set |
 | Aug 28 | Metric Spaces      | Metric Spaces                                  | Problem Set |
-| Aug 29 | Linear Spaces                   | Normed Linear Spaces   | Problem Set: |
+| Aug 29 | Linear Spaces                   | Normed Linear Spaces   | Problem Set |
 | Aug 30 | Functions: Continuous         | Functions: Monotone, Linear, Convex/Concave    | Problem Set |
 | Sep 3  | Inner Product Spaces, Orthogonality, Projection      | Functions: Smooth                   | Problem Set |
 | Sep 4  | Optimization: Unconstrained   | Optimization: Equality Constrained                    | Problem Set |

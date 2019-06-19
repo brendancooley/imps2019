@@ -44,7 +44,7 @@ The core component of the course will meet weekdays between August 26 and Septem
 
 ### Requirements
 
-**Problem Sets:** Students are required to complete the weekly problem sets during the summer component and the daily problem sets during the core component. Problem sets during the summer component are due by *midnight each Thursday* (see table of deadlines below). Completed problem sets can be uploaded using the linked Dropbox file requests in the "Due" column of the summer schedule. We understand that summer often features travel and other activities that get in the way of doing math. Please get in touch if you don't think you'll be able to submit assignments by their due date, and we'll work on an alternative assignment schedule for you.
+**Problem Sets:** Students are required to complete the weekly problem sets during the summer component and the daily problem sets during the core component. Problem sets during the summer component are due by *midnight (EDT) each Thursday* (see table of deadlines below). Completed problem sets can be uploaded using the linked Dropbox file requests in the "Due" column of the summer schedule. We understand that summer often features travel and other activities that get in the way of doing math. Please get in touch if you don't think you'll be able to submit assignments by their due date, and we'll work on an alternative assignment schedule for you.
 
 Problem sets during the core component are due by *10:00am the morning after they are distributed*. Students are encouraged to work together on the problem sets, but are expected to write up their solutions individually. The camp will conclude with a final exam given in class at *TBA*.
 
@@ -81,7 +81,7 @@ Because Moore and Siegel's treatment of linear algebra is somewhat terse, we rec
 
 | Post   | Due    | Topic                                          | Video              | Reading                                        | Solutions |
 |--------|--------|------------------------------------------------|--------------------|------------------------------------------------|---|
-| Jun 14 | Jun 20 | Building Blocks, Functions, Limits, Continuity | MS 1-2             | MS 1-4                                         | Solutions |
+| [Jun 14](materials/summer_exercises/ps1.pdf) | [Jun 20](https://www.dropbox.com/request/IA8J1w1colnUbXN3r3Vt) | Building Blocks, Functions, Limits, Continuity | MS 1-2             | MS 1-4                                         | Solutions |
 | Jun 21 | Jun 27 | Differentiation                                | MS 3-4             | MS 5-6                                         | Solutions |
 | Jun 28 | Jul 4  | Integration                                    | MS 5               | MS 7                                           | Solutions |
 | Jul 5  | Jul 11 | Optimization                                   | MS 6               | MS 8                                           | Solutions |

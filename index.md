@@ -82,7 +82,7 @@ Because Moore and Siegel's treatment of linear algebra is somewhat terse, we rec
 | Post   | Due    | Topic                                          | Video              | Reading                                        | Solutions |
 |--------|--------|------------------------------------------------|--------------------|------------------------------------------------|---|
 | [Jun 14](materials/summer_exercises/ps1.pdf) | [Jun 20](https://www.dropbox.com/request/IA8J1w1colnUbXN3r3Vt) | Building Blocks, Functions, Limits, Continuity | MS 1-2             | MS 1-4                                         | [Solutions](materials/summer_exercises_solutions/ps1.pdf) |
-| [Jun 21](materials/summer_exercises/ps2.pdf) | [Jun 27](https://www.dropbox.com/request/ajbup1dPq9SUh9o5AkBD) | Differentiation                                | MS 3-4             | MS 5-6                                         | Solutions |
+| [Jun 21](materials/summer_exercises/ps2.pdf) | [Jun 27](https://www.dropbox.com/request/ajbup1dPq9SUh9o5AkBD) | Differentiation                                | MS 3-4             | MS 5-6                                         | [Solutions](materials/summer_exercises_solutions/ps2.pdf) |
 | [Jun 28](materials/summer_exercises/ps3.pdf) | [Jul 4](https://www.dropbox.com/request/Tjp5HloCOHRQn3xL5qT0)  | Integration                                    | MS 5               | MS 7                                           | Solutions |
 | Jul 5  | Jul 11 | Optimization                                   | MS 6               | MS 8                                           | Solutions |
 | Jul 12 | Jul 18 | Probability (Introduction)                     | MS 7               | MS 9                                           | Solutions |

@@ -87,8 +87,8 @@ Because Moore and Siegel's treatment of linear algebra is somewhat terse, we rec
 | [Jul 5](materials/summer_exercises/ps4.pdf)  | [Jul 11](https://www.dropbox.com/request/9dz1fxEppc1Zj3imG3jo) | Optimization                                   | MS 6               | MS 8                                           | Solutions |
 | Jul 12 | Jul 18 | Probability (Introduction)                     | MS 7               | MS 9                                           | Solutions |
 | Jul 19 | Jul 25 | Probability (Distribution Functions)           | MS 8-9             | MS 10-11                                       | Solutions |
-| Jul 26 | Aug 1  | Scalars, Vectors, and Matrices                 | MS 10.1-10.6, 10.8 | MS 12.1-12.3.4, 12.4 (S 1)                     | Solutions |
-| Aug 2  | Aug 8  | Solving Systems of Equations                   | MS 11.1-11.5       | MS 13.1-13.2.2 (S 2.1-2.4)                     | Solutions |
+| Jul 26 | Aug 1  | Scalars, Vectors, and Matrices                 | MS 10.1-10.6, 10.8 | MS 12.1-12.3.4, 12.4 (S 1, 2.4)                     | Solutions |
+| Aug 2  | Aug 8  | Solving Systems of Equations                   | MS 11.1-11.5       | MS 13.1-13.2.2 (S 2.1-2.3, 3.1, 3.3-3.4)                     | Solutions |
 | Aug 9 | Aug 15 | Matrix Inversion and Determinants              | MS 10.7, 11.6-11.8 | MS 12.3.5-12.3.7, 13.2.3-13.2.4 (S 2.5-2.7, 5) | Solutions |
 
 **Core Component**

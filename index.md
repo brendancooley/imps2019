@@ -8,10 +8,16 @@ layout: default
 
 **In-Person Component:** August 26-30, September 3-6, September 9-10
 
-- Morning Session: 10:00am - 11:50am
+- Morning Session: 10:00am - 11:50am<sup>*</sup>
 - Afternoon Session: 1:30pm - 3:20pm
 
-**Classroom:** TBA
+**Important Dates**
+
+- **August 26, 9:30am** Light breakfast and orientation for IMPS students with Kris Ramsay, Director of Graduate Studies and Julia Georgiana, Graduate Program Administor.
+- **September 4, 12:00pm:** First year orientation lunch
+- **September 5, 12:00pm:** Library visit and lunch with Jeremy Darrington, Politics Librarian
+
+**Classroom:** Corwin 127
 
 **Office Hours:** TBA
 
@@ -99,9 +105,11 @@ The course will provide students with basic skills necessary to express theoreti
 
 Ross's *Elementary Analysis* is a useful companion text to this part of the course. Purchasing the book is not necessary -- we will post course notes on this page for all topics covered in the core component.
 
+
+
 | Date   | Morning Session             | Afternoon Session                               | Problem Set |
 |--------|-----------------------------|-------------------------------------------------|-------------|
-| Aug 26 | Introduction, Summer Review   | Midterm Exam (Closed Book)              |  |
+| Aug 26 | Midterm Exam (Closed Book)   | Introduction, Summer Review           |  |
 | Aug 27 | Proofs and Logic            | Ordered Sets                            | Problem Set |
 | Aug 28 | Metric Spaces      | Metric Spaces                                  | Problem Set |
 | Aug 29 | Linear Spaces                   | Normed Linear Spaces   | Problem Set |
@@ -111,6 +119,8 @@ Ross's *Elementary Analysis* is a useful companion text to this part of the cour
 | Sep 5  | Comparative Statics     |  Optimization: Existence and Uniqueness | Problem Set  |
 | Sep 6  | Exam Review (I)   | Exam Review (II)                                     |  |
 | Sep 10 | Final Exam (Closed Book) |                                                 |             |
+
+
 
 ### Getting Started with LaTeX
 

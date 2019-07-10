@@ -8,14 +8,14 @@ layout: default
 
 **In-Person Component:** August 26-30, September 3-6, September 9-10
 
-- Morning Session: 10:00am - 11:50am<sup>*</sup>
+- Morning Session: 10:00am - 11:50am
 - Afternoon Session: 1:30pm - 3:20pm
 
 **Important Dates**
 
 - **August 26, 9:30am** Light breakfast and orientation for IMPS students with Kris Ramsay, Director of Graduate Studies and Julia Georgiana, Graduate Program Administor.
-- **September 4, 12:00pm:** First year orientation lunch
-- **September 5, 12:00pm:** Library visit and lunch with Jeremy Darrington, Politics Librarian
+- **September 4, 12:00pm** First year orientation lunch.
+- **September 5, 12:00pm** Library visit and lunch with Jeremy Darrington, Politics Librarian
 
 **Classroom:** Corwin 127
 

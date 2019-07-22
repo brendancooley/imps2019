@@ -30,7 +30,7 @@ layout: default
 - Dan Gibbs
     - Ph.D. Candidate, Department of Politics (American Politics, Formal & Quantitative Methods)
     - [dagibbs@princeton.edu](mailto:dagibbs@princeton.edu)
-    - Office: Corwin 025
+    - Office: Fisher 300
 
 **Faculty Advisor:** Kristopher Ramsay, Professor, Department of Politics
 
@@ -90,9 +90,9 @@ Because Moore and Siegel's treatment of linear algebra is somewhat terse, we rec
 | [Jun 14](materials/summer_exercises/ps1.pdf) | [Jun 20](https://www.dropbox.com/request/IA8J1w1colnUbXN3r3Vt) | Building Blocks, Functions, Limits, Continuity | MS 1-2             | MS 1-4                                         | [Solutions](materials/summer_exercises_solutions/ps1.pdf) |
 | [Jun 21](materials/summer_exercises/ps2.pdf) | [Jun 27](https://www.dropbox.com/request/ajbup1dPq9SUh9o5AkBD) | Differentiation                                | MS 3-4             | MS 5-6                                         | [Solutions](materials/summer_exercises_solutions/ps2.pdf) |
 | [Jun 28](materials/summer_exercises/ps3.pdf) | [Jul 4](https://www.dropbox.com/request/Tjp5HloCOHRQn3xL5qT0)  | Integration                                    | MS 5               | MS 7                                           | [Solutions](materials/summer_exercises_solutions/ps3.pdf) |
-| [Jul 5](materials/summer_exercises/ps4.pdf)  | [Jul 11](https://www.dropbox.com/request/9dz1fxEppc1Zj3imG3jo) | Optimization                                   | MS 6               | MS 8                                           | Solutions |
+| [Jul 5](materials/summer_exercises/ps4.pdf)  | [Jul 11](https://www.dropbox.com/request/9dz1fxEppc1Zj3imG3jo) | Optimization                                   | MS 6               | MS 8                                           | [Solutions](materials/summer_exercises_solutions/ps4.pdf) |
 | [Jul 12](materials/summer_exercises/ps5.pdf) | [Jul 18](https://www.dropbox.com/request/cB60eMU3fiIITpqXvAgp) | Probability (Introduction)                     | MS 7               | MS 9                                           | Solutions |
-| Jul 19 | Jul 25 | Probability (Distribution Functions)           | MS 8-9             | MS 10-11                                       | Solutions |
+| [Jul 19](materials/summer_exercises/ps5.pdf) | [Jul 25](https://www.dropbox.com/request/R7RYEyzbqGrSkYZLSzG9) | Probability (Distribution Functions)           | MS 8-9             | MS 10-11                                       | Solutions |
 | Jul 26 | Aug 1  | Scalars, Vectors, and Matrices                 | MS 10.1-10.6, 10.8 | MS 12.1-12.3.4, 12.4 (S 1, 2.4)                     | Solutions |
 | Aug 2  | Aug 8  | Solving Systems of Equations                   | MS 11.1-11.5       | MS 13.1-13.2.2 (S 2.1-2.3, 3.1, 3.3-3.4)                     | Solutions |
 | Aug 9 | Aug 15 | Matrix Inversion and Determinants              | MS 10.7, 11.6-11.8 | MS 12.3.5-12.3.7, 13.2.3-13.2.4 (S 2.5-2.7, 5) | Solutions |

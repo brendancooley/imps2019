@@ -59,6 +59,7 @@ LaTeX is a typesetting system that will likely become a big part of your life as
 **Exams:**
 
 - August 26: Midterm Exam covering summer topics (calculus, probability, and linear algebra)
+    + [Practice Exam](materials/midterm/practice_midterm.pdf)
 - September 10: Final Exam
 
 **Grading:**

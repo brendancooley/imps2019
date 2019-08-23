@@ -6,7 +6,7 @@ layout: default
 
 **Summer Self-Study:** June 14 - August 15
 
-**In-Person Component:** August 26-30, September 3-6, September 9
+**In-Person Component:** August 26-30, September 3-6, September 10
 
 - Morning Session: 10:00am - 11:50am
 - Afternoon Session: 1:30pm - 3:20pm
@@ -61,7 +61,7 @@ LaTeX is a typesetting system that will likely become a big part of your life as
 - August 26, 10:00am: Midterm Exam covering summer topics (calculus, probability, and linear algebra)
     + [Practice Exam](materials/midterm/practice_midterm.pdf)
     + [Practice Exam Solutions](materials/midterm_solutions/practice_midterm.pdf)
-- September 9, 9:00am: Final Exam
+- September 10, 9:00am: Final Exam
 
 **Grading:**
 
@@ -120,7 +120,7 @@ Ross's *Elementary Analysis* is a useful companion text to this part of the cour
 | Sep 4  | Optimization: Unconstrained   | Optimization: Equality Constrained                    | Problem Set |
 | Sep 5  | Comparative Statics     |  Optimization: Existence and Uniqueness | Problem Set  |
 | Sep 6  | Exam Review (I)   | Exam Review (II)                                     |  |
-| Sep 9 | Final Exam (Closed Book, **begins 9:00am**) |                                                 |             |
+| Sep 10 | Final Exam (Closed Book, **begins 9:00am**) |                                                 |             |
 
 
 

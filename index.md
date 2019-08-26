@@ -61,6 +61,7 @@ LaTeX is a typesetting system that will likely become a big part of your life as
 - August 26, 10:00am: Midterm Exam covering summer topics (calculus, probability, and linear algebra)
     + [Practice Exam](materials/midterm/practice_midterm.pdf)
     + [Practice Exam Solutions](materials/midterm_solutions/practice_midterm.pdf)
+    + [Exam Solutions](materials/midterm_solutions/midterm.pdf)
 - September 10, 9:00am: Final Exam
 
 **Grading:**
@@ -112,7 +113,7 @@ Ross's *Elementary Analysis* is a useful companion text to this part of the cour
 | Date   | Morning Session             | Afternoon Session                               | Problem Set |
 |--------|-----------------------------|-------------------------------------------------|-------------|
 | Aug 26 | Midterm Exam (Closed Book)   | Introduction, Summer Review           |  |
-| Aug 27 | Proofs and Logic            | Ordered Sets                            | Problem Set |
+| Aug 27 | [Proofs and Logic](materials/notes/logicProofs.pdf)            | [Ordered Sets](materials/notes/orderedSets.pdf)                           | Problem Set |
 | Aug 28 | Metric Spaces      | Metric Spaces                                  | Problem Set |
 | Aug 29 | Linear Spaces                   | Normed Linear Spaces   | Problem Set |
 | Aug 30 | Functions: Continuous         | Functions: Monotone, Linear, Convex/Concave    | Problem Set |

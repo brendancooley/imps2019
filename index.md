@@ -113,7 +113,7 @@ Ross's *Elementary Analysis* is a useful companion text to this part of the cour
 | Date   | Morning Session             | Afternoon Session                               | Problem Set |
 |--------|-----------------------------|-------------------------------------------------|-------------|
 | Aug 26 | Midterm Exam (Closed Book)   | Introduction, Summer Review           |  |
-| Aug 27 | [Proofs and Logic](materials/notes/logicProofs.pdf)            | [Ordered Sets](materials/notes/orderedSets.pdf)                           | [Problems I](materials/core_exercises/orderedSets.pdf) [Problems II](materials/core_exercises/proofsLogic.pdf) |
+| Aug 27 | [Proofs and Logic](materials/notes/logicProofs.pdf)            | [Ordered Sets](materials/notes/orderedSets.pdf)                           | [Problems I](materials/core_exercises/orderedSets.pdf) [Problems II](materials/core_exercises/logicProofs.pdf) |
 | Aug 28 | [Metric Spaces](materials/notes/metricSpaces.pdf)      | Metric Spaces                                  | Problem Set |
 | Aug 29 | Linear Spaces                   | Normed Linear Spaces   | Problem Set |
 | Aug 30 | Functions: Continuous         | Functions: Monotone, Linear, Convex/Concave    | Problem Set |

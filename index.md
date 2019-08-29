@@ -116,7 +116,7 @@ Ross's *Elementary Analysis* is a useful companion text to this part of the cour
 | Aug 27 | [I: Proofs and Logic](materials/notes/logicProofs.pdf)            | [II: Ordered Sets](materials/notes/orderedSets.pdf)                           | [Problems I](materials/core_exercises/logicProofs.pdf): 1, 2, (3) [Problems II](materials/core_exercises/orderedSets.pdf): 4, 5, (6) (choose 1 of (3) and (6)) [Solutions I](materials/core_exercises_solutions/logicProofs.pdf) [Solutions II](materials/core_exercises_solutions/orderedSets.pdf) |
 | Aug 28 | [Metric Spaces](materials/notes/metricSpaces.pdf)      | Metric Spaces                                  | [Problem Set](materials/core_exercises/metricSpaces.pdf): 1-2, 4-6 [Solutions](materials/core_exercises_solutions/metricSpaces.pdf) |
 | Aug 29 | [I: Linear Spaces](materials/notes/linearSpaces.pdf)                  | [II: Normed Linear Spaces](materials/notes/normedLinearSpaces.pdf)   | [Problems I](materials/core_exercises/linearSpaces.pdf): 1-2, (3) [Problems II](materials/core_exercises/normedLinearSpaces.pdf): 1, 3, (2) (choose one of (3) and (2)) |
-| Aug 30 | Functions: Continuous         | Functions: Monotone, Linear, Convex/Concave    | Problem Set |
+| Aug 30 | [Functions: Continuous](materials/notes/functionsContinuous.pdf)         | [Functions: Monotone, Linear, Convex/Concave](materials/notes/monotoneLinearConvex.pdf)    | Problem Set |
 | Sep 3  | Inner Product Spaces, Orthogonality, Projection      | Functions: Smooth                   | Problem Set |
 | Sep 4  | Optimization: Unconstrained   | Optimization: Equality Constrained                    | Problem Set |
 | Sep 5  | Comparative Statics     |  Optimization: Existence and Uniqueness | Problem Set  |

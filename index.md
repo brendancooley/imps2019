@@ -113,7 +113,7 @@ Ross's *Elementary Analysis* is a useful companion text to this part of the cour
 | Date   | Morning Session             | Afternoon Session                               | Problem Set |
 |--------|-----------------------------|-------------------------------------------------|-------------|
 | Aug 26 | Midterm Exam (Closed Book)   | Introduction, Summer Review           |  |
-| Aug 27 | [I: Proofs and Logic](materials/notes/logicProofs.pdf)            | [II: Ordered Sets](materials/notes/orderedSets.pdf)                           | [Problems I](materials/core_exercises/logicProofs.pdf): 1, 2, (3) [Problems II](materials/core_exercises/orderedSets.pdf): 4, 5, (6) (choose 1 of (3) and (6)) |
+| Aug 27 | [I: Proofs and Logic](materials/notes/logicProofs.pdf)            | [II: Ordered Sets](materials/notes/orderedSets.pdf)                           | [Problems I](materials/core_exercises/logicProofs.pdf): 1, 2, (3) [Problems II](materials/core_exercises/orderedSets.pdf): 4, 5, (6) (choose 1 of (3) and (6)) [Solutions I](materials/core_exercises_solutions/logicProofs.pdf) [Solutions II](materials/core_exercises_solutions/orderedSets.pdf) |
 | Aug 28 | [Metric Spaces](materials/notes/metricSpaces.pdf)      | Metric Spaces                                  | [Problem Set](materials/core_exercises/metricSpaces.pdf): 1-2, 4-6 |
 | Aug 29 | [Linear Spaces](materials/notes/linearSpaces.pdf)                  | [Normed Linear Spaces](materials/notes/normedLinearSpaces.pdf)   | Problem Set |
 | Aug 30 | Functions: Continuous         | Functions: Monotone, Linear, Convex/Concave    | Problem Set |

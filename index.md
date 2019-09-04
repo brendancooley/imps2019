@@ -119,11 +119,7 @@ Ross's *Elementary Analysis* is a useful companion text to this part of the cour
 | Aug 30 | [I: Functions: Continuous](materials/notes/functionsContinuous.pdf)         | [II: Functions: Monotone, Linear, Convex/Concave](materials/notes/monotoneLinearConvex.pdf)    | [Problems I](materials/core_exercises/continuousFunctions.pdf): 1-5 [Problems II](materials/core_exercises/monotoneLinearConvex.pdf): 1-2 [Solutions I](materials/core_exercises_solutions/continuousFunctions.pdf) [Solutions II](materials/core_exercises_solutions/monotoneLinearConvex.pdf) |
 | Sep 3  | [I: Inner Product Spaces, Orthogonality, Projection](materials/notes/innerProductSpaces.pdf)      | [II: Functions: Smooth](materials/notes/functionsSmooth.pdf)                   | [Problems I](materials/core_exercises/innerProductSpaces.pdf): 1-3 [Problems II](materials/core_exercises/functionsSmooth.pdf): 2-4 [Solutions I](materials/core_exercises_solutions/innerProductSpaces.pdf) [Solutions II](materials/core_exercises_solutions/functionsSmooth.pdf) |
 | Sep 4  | [Optimization: Unconstrained](materials/notes/optimization.pdf)   | Optimization: Equality Constrained                    | [Problem Set](materials/core_exercises/optimization.pdf): 2-6 |
-<<<<<<< HEAD
 | Sep 5  | [Comparative Statics](materials/notes/comparativeStatics.pdf)     |  [Optimization: Existence and Uniqueness](materials/notes/fixedPoints.pdf) | Problem Set  |
-=======
-| Sep 5  | Comparative Statics     |  Optimization: Existence and Uniqueness | Problem Set  |
->>>>>>> 64b3d10da1220daf484d04444fb029981c99b01a
 | Sep 6  | Exam Review (I)   | Exam Review (II)                                     |  |
 | Sep 10 | Final Exam (Closed Book, **begins 9:00am**) |                                                 |             |
 

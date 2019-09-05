@@ -123,8 +123,6 @@ Ross's *Elementary Analysis* is a useful companion text to this part of the cour
 | Sep 6  | Exam Review (I)   | Exam Review (II)                                     |  |
 | Sep 10 | Final Exam (Closed Book, **begins 9:00am**) |                                                 |             |
 
-
-
 ### Getting Started with LaTeX
 
 As mentioned above, we ask that students begin submitting typed problem sets in week 3 of the summer component. That requires learning LaTeX, a typesetting system that facilitates drafting mathematical documents. First thing's first, you'll need to download a LaTeX distribution and a text editor suitable for drafting LaTeX documents.

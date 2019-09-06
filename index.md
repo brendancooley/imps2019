@@ -121,7 +121,7 @@ Ross's *Elementary Analysis* is a useful companion text to this part of the cour
 | Sep 4  | [Optimization: Unconstrained](materials/notes/optimization.pdf)   | Optimization: Equality Constrained                    | [Problem Set](materials/core_exercises/optimization.pdf): 2-6 [Solutions](materials/core_exercises_solutions/optimization.pdf) |
 | Sep 5  | [I: Comparative Statics](materials/notes/comparativeStatics.pdf)     |  [II: Optimization: Existence and Uniqueness](materials/notes/fixedPoints.pdf) | [Problems I](materials/core_exercises/comparativeStatics.pdf): 2-3 [Problems II](materials/core_exercises/fixedPoints.pdf)  |
 | Sep 6  | Exam Review (I)   | Exam Review (II)                                     |  |
-| Sep 10 | Final Exam (Closed Book, **begins 9:00am**) [Practice Exam](materials/final/final_practice.pdf) |                                                 |             |
+| Sep 10 | Final Exam (Closed Book, **begins 9:00am**) [Practice Exam](materials/final/final_practice.pdf) [Solutions](materials/final_solutions/final_practice.pdf) |                                                 |             |
 
 ### Getting Started with LaTeX
 
